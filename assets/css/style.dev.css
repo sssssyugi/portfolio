@@ -1,0 +1,15 @@
+/* line 1, assets\less\mixin.less */
+h1 {
+  border: 1px #F00 solid;
+}
+/* line 1, assets\less\common.less */
+body {
+  margin: 0;
+  padding: 0;
+}
+/* line 2, assets\less\style.less */
+.wrap {
+  border: 1px #000 solid;
+  width: 100px;
+  height: 100px;
+}
