@@ -33,12 +33,14 @@ a {
 /* line 8, assets\less\style.less */
 .wrap .header {
   position: relative;
+  height: 700px;
 }
-/* line 11, assets\less\style.less */
+/* line 12, assets\less\style.less */
 .wrap .header img {
   width: 100%;
+  height: 100%;
 }
-/* line 14, assets\less\style.less */
+/* line 16, assets\less\style.less */
 .wrap .header .gnb {
   position: absolute;
   top: 10%;
@@ -46,54 +48,125 @@ a {
   height: 70px;
   line-height: 65px;
 }
-/* line 21, assets\less\style.less */
+/* line 23, assets\less\style.less */
 .wrap .header .gnb ul {
   font-size: 0;
 }
-/* line 23, assets\less\style.less */
+/* line 25, assets\less\style.less */
 .wrap .header .gnb ul li {
   font-size: 11px;
   float: left;
   margin-right: 15px;
 }
-/* line 33, assets\less\style.less */
+/* line 35, assets\less\style.less */
 .wrap .header .gnb ul li a {
   color: #fff;
   padding: 10px 20px 10px 20px;
 }
-/* line 38, assets\less\style.less */
+/* line 40, assets\less\style.less */
 .wrap .header .gnb ul li:hover a {
   background-color: #13a9dc;
   border-radius: 5%;
 }
-/* line 43, assets\less\style.less */
+/* line 45, assets\less\style.less */
 .wrap .header .gnb ul li:first-child a {
   background-color: #13a9dc;
   border-radius: 5%;
   padding: 10px 20px 10px 20px;
 }
-/* line 51, assets\less\style.less */
+/* line 53, assets\less\style.less */
 .wrap .header .main_text {
   position: absolute;
   top: 45%;
   left: 38%;
 }
-/* line 56, assets\less\style.less */
+/* line 58, assets\less\style.less */
 .wrap .header .main_text h1 {
   font-size: 45px;
   color: #fff;
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 62, assets\less\style.less */
+/* line 64, assets\less\style.less */
 .wrap .header .main_text button {
   outline: none;
   color: #fff;
   background-color: rgba(255, 255, 255, 0);
   border: 1px #fff solid;
-  border-radius: 10%;
+  border-radius: 8px;
   padding: 15px 50px;
   font-size: 10px;
   margin-top: 95px;
   margin-left: 35%;
+}
+/* line 79, assets\less\style.less */
+.wrap .section_1 {
+  border: 1px #00f solid;
+  height: 780px;
+}
+/* line 82, assets\less\style.less */
+.wrap .section_1 .title {
+  height: 130px;
+  border: 1px #000 solid;
+  padding-top: 90px;
+  position: relative;
+}
+/* line 87, assets\less\style.less */
+.wrap .section_1 .title h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+/* line 92, assets\less\style.less */
+.wrap .section_1 .title span {
+  width: 70px;
+  height: 2px;
+  background-color: #13a9dc;
+  position: absolute;
+  top: 59%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 104, assets\less\style.less */
+.wrap .section_1 .title p {
+  padding-top: 40px;
+  font-size: 11px;
+  text-align: center;
+}
+/* line 110, assets\less\style.less */
+.wrap .section_1 .contents {
+  height: 650px;
+  border: 1px #f00 solid;
+  padding-top: 78px;
+  text-align: center;
+}
+/* line 115, assets\less\style.less */
+.wrap .section_1 .contents ul {
+  font-size: 0;
+  margin-bottom: 28px;
+}
+/* line 118, assets\less\style.less */
+.wrap .section_1 .contents ul li {
+  display: inline-block;
+  font-size: 10px;
+  width: 172px;
+  height: 193px;
+  border: 1px #e6e6e6 solid;
+  margin-right: 20px;
+  border-radius: 5%;
+}
+/* line 126, assets\less\style.less */
+.wrap .section_1 .contents ul li a {
+  text-transform: uppercase;
+}
+/* line 128, assets\less\style.less */
+.wrap .section_1 .contents ul li a img {
+  width: 38px;
+  height: 36px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+/* line 136, assets\less\style.less */
+.wrap .section_1 .contents ul:hover li {
+  background-color: #e6e6e6;
 }
