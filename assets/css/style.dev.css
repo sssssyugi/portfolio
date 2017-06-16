@@ -264,3 +264,74 @@ video {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+/* line 234, assets\less\style.less */
+.wrap .section_3 .recommend {
+  position: relative;
+}
+/* line 236, assets\less\style.less */
+.wrap .section_3 .recommend button {
+  position: absolute;
+  top: 40%;
+  outline: 0;
+  border: 0;
+  background-color: rgba(255, 255, 255, 0);
+}
+/* line 242, assets\less\style.less */
+.wrap .section_3 .recommend button img {
+  width: 35px;
+  height: 35px;
+}
+/* line 246, assets\less\style.less */
+.wrap .section_3 .recommend button:first-child {
+  left: 10%;
+}
+/* line 251, assets\less\style.less */
+.wrap .section_3 .recommend:last-child button {
+  float: right;
+  right: 10%;
+}
+/* line 255, assets\less\style.less */
+.wrap .section_3 .recommend .r_contents {
+  outline: 1px #000 solid;
+  width: 1000px;
+  height: 254px;
+  margin: 0 auto;
+}
+/* line 260, assets\less\style.less */
+.wrap .section_3 .recommend .r_contents ul {
+  font-size: 0;
+}
+/* line 262, assets\less\style.less */
+.wrap .section_3 .recommend .r_contents ul li {
+  outline: 1px #000 solid;
+  float: left;
+}
+/* line 265, assets\less\style.less */
+.wrap .section_3 .recommend .r_contents ul li:first-child {
+  width: 306px;
+  height: 254px;
+}
+/* line 269, assets\less\style.less */
+.wrap .section_3 .recommend .r_contents ul li:last-child {
+  margin: 35px 0 44px 75px;
+}
+/* line 275, assets\less\style.less */
+.wrap .section_3 .recommend .r_contents ul li a {
+  font-size: 16px;
+}
+/* line 277, assets\less\style.less */
+.wrap .section_3 .recommend .r_contents ul li a img {
+  width: 272px;
+  height: 194px;
+  padding: 30px 17px;
+  opacity: 0.5;
+}
+/* line 287, assets\less\style.less */
+.wrap .section_3 .recommend .r_contents ul li p {
+  font-size: 11px;
+}
+/* line 292, assets\less\style.less */
+.wrap .section_3 .recommend .r_contents ul li p:last-child {
+  color: #00f;
+  margin-top: 50px;
+}

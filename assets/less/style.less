@@ -228,8 +228,94 @@
         top:35%;
         left:50%;
         // background:#f00;
-        transform:translate(-50%, -50%)
+        transform:translate(-50%, -50%);
       }
-    }
-  }
+    } // sec_title end
+    .recommend{
+      position: relative;
+      button{
+        position: absolute;
+        top: 40%;
+        outline: 0;
+        border: 0;
+        background-color: rgba(255 , 255, 255 , 0);
+        img{
+          width: 35px;
+          height: 35px;
+        }
+        &:first-child{
+          left: 10%;
+          // right: 80%;
+        }
+      }
+      &:last-child button{
+        float: right;
+        right: 10%;
+      }
+      .r_contents{
+        outline: 1px #000 solid;
+        width: 1000px;
+        height: 254px;
+        margin: 0 auto;
+        ul{
+          font-size: 0;
+          li{
+            outline: 1px #000 solid;
+            float: left;
+            &:first-child{
+              width: 306px;
+              height: 254px;
+            }
+            &:last-child{
+              // float: left;
+              // padding-left: 75px;
+              // margin: 35px 0 44px 75px;
+              margin: 35px 0 44px 75px;
+            }
+            a{
+              font-size: 16px;
+              img{
+                width: 272px;
+                height: 194px;
+                padding: 30px 17px;
+                opacity: 0.5;
+              }
+            }
+            // &:first-child p{
+            //   margin-top: 36px;
+            // }
+            p{
+              font-size: 11px;
+              // &:first-child{
+              //   margin-top: 36px;
+              // }
+              &:last-child{
+                color: #00f;
+                margin-top: 50px;
+              }
+            }
+          }
+        }
+        // .r_img{
+        //   display: inline;
+        //   vertical-align: middle;
+        //   img{
+        //     width: 28%;
+        //     padding: 20px;
+        //   }
+        // } // r_img end
+        // .content_write{
+        //   h3{
+        //     font-size: 15px;
+        //   }
+        //   p{
+        //     font-size: 11px;
+        //     &:last-child{
+        //       color: #00f;
+        //     }
+        //   }
+        // } // content_write end
+      } // r_contents end
+    } // recommend end
+  } //section_3 end
 } // wrap end
