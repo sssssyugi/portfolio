@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../assets/css/style.min.css">
   <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
   <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <title>fastival_main</title>
   <script type="text/javascript">
 
@@ -53,6 +54,22 @@
    }
    google.maps.event.addDomListener(window, 'load', initialize);
 
+   $(function() {
+    $('.gnb li').click(function() {
+      console.log('ddddd');
+      // var a = $(this).offset().top;
+      // console.log(a);
+
+      var section = $('.wrap .section_1').offset().top;
+      // console.log(section);
+      var section = function() {
+        $('.gnb').css({
+          'top':-66
+        });
+      };
+
+    });
+   });
 
   </script>
 </head>
@@ -67,14 +84,16 @@
       <img src="../assets/images/main.jpg" alt="">
       <div class="gnb">
         <ul>
-          <li><a href="#">Home</a></li>
+          <li class="on"><a href="#">Home</a></li>
           <li><a href="#">Enjoy</a></li>
           <li><a href="#">Food</a></li>
           <li><a href="#">Shopping</a></li>
           <li><a href="#">Stay</a></li>
           <li><a href="#">Traffic</a></li>
           <li><a href="#">Informaion</a></li>
-          <li><button type="button" name="button"></button></li>
+          <li>
+            <button type="button" name="button"><img src="../assets/images/main_search.png" alt=""></button>
+          </li>
         </ul>
       </div><!-- gnb end -->
       <!-- main 이미지 안에 큰글씨 (나중에 움직이게 할꺼임)-->

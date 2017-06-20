@@ -5,6 +5,7 @@
   width: 100%;
   height: 100%;
   font-family: 'Libre Franklin', sans-serif;
+
   .header{
     // border: 1px #000 solid;
     position: relative;
@@ -14,13 +15,19 @@
       height: 100%;
     }
     .gnb{
+      z-index: 100;
+      // border: 1px #fff solid;
       position: absolute;
-      top: 10%;
-      left: 55%;
-      // width: 900px;
+      position: fixed;
+      // top: 10%;
+      top: 66px;
+      // left: 55%;
+      width: 100%;
       height: 70px;
       line-height: 65px;
+      background-color: rgba(0, 29, 62, 0.8);
       ul{
+        padding-left: 60%;
         font-size: 0;
         li{
           font-size: 11px;
@@ -46,6 +53,18 @@
             background-color: #13a9dc;
             border-radius: 5%;
             padding: 10px 20px 10px 20px;
+          }
+          &:last-child{
+            padding-left: 10px;
+          }
+          button{
+            border: 0;
+            outline: none;
+            background-color: rgba(255, 255, 255, 0);
+            width: 16px;
+            height: 16px;
+            transform: rotate(-14deg);
+            margin-top: 27px;
           }
         }
       }
@@ -261,7 +280,7 @@
         // 배경색에만 투명함을 입히려면 rgba써야댐
         background-color: rgba(19, 169, 220, 0.1);
         .r_img{
-          z-index: 10;
+          // z-index: 10;
           img{
             width: 272px;
             height: 194px;
@@ -331,21 +350,23 @@
     height: 400px;
     outline: 1px #000 solid;
     // background-color: rgba(255, 255, 255, 1);
-    z-index: 100;
+    // z-index: 100;
     #map_canvas{
       width: 100%;
       height: 100%;
     }
   } //section_4 end
   .footer{
-    height: 65px;
-    outline: 1px #000 solid;
+    height: 55px;
+    outline: 1px #00f solid;
     background-color: #000;
     ul{
-      border: 1px #000 solid;
+      outline: 1px #f00 solid;
       // line-height: 50px;
       text-align: right;
+      line-height: 55px;
       li{
+        outline: 1px #f0f solid;
         padding-right: 25px;
         display: inline-block;
         vertical-align: middle;
@@ -360,16 +381,17 @@
           border: 0;
           background-color: rgba(19 , 169, 220 , 1);
           img{
-            height: 17px;
-            width: 17px;
+            height: 10px;
+            width: 13px;
+            padding-bottom: 5px;
           }
         }
         &:last-child{
           margin-left: 50px;
           margin-right: 135px;
-          // background-color: #13a9dc;
-          margin-top: 18px;
-          padding: 0;
+          background-color: #13a9dc;
+          // margin-top: 18px;
+          padding: 0 15px;
         }
       }
     }
