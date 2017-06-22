@@ -16,7 +16,8 @@ module.exports = function(grunt) {
           compress:true
         },
         files: {
-          './assets/css/style.min.css': './assets/less/import.less'
+          './assets/css/style.min.css': './assets/less/import.less',
+          './assets/css/enjoy.min.css': './assets/less/import.less'
         }
       },
       dev: {
@@ -25,7 +26,8 @@ module.exports = function(grunt) {
           dumpLineNumbers:"comments"
         },
         files: {
-          './assets/css/style.dev.css': './assets/less/import.less'
+          './assets/css/style.dev.css': './assets/less/import.less',
+          './assets/css/enjoy.dev.css': './assets/less/import.less'
         }
       }
     },
