@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/sssssyugi/portfolio#readme",
   "devDependencies": {
+    "grunt": "^1.0.1",
     "grunt-contrib-less": "^1.4.1",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-serve": "^0.1.6"
