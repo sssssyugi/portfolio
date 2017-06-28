@@ -22,7 +22,7 @@
         font-size: 0;
         height: 100%;
         width: 1000px;
-        border: 1px #fff solid;
+        outline: 1px #fff solid;
         margin: 0 auto;
         li{
           font-size: 11px;
@@ -265,7 +265,7 @@
       h2{
         text-transform: uppercase;
         font-size: 17px;
-        padding-top: 100px;
+        padding-top: 120px;
       }
       span{
         // border: 1px #13a9dc solid;
@@ -282,18 +282,32 @@
     } // title end
     .gray{
       margin-top: 100px;
+      .gray_ul{
+        // 안에있는 ul에게 중복되어서 따로 클래스 만들어줌
+        outline: 1px #000 solid;
+        height: 381px;
+        width: 1190px;
+        margin: 0 auto;
+      }
       ul{
-        outline: 1px #00f solid;
+        .gray_li{
+          outline: 1px #0f0 solid;
+          margin: 0.5%;
+        }
         li{
-          display: inline-block;
           .gray_section1{
-            border: 1px #000 solid;
+            outline: 1px #000 solid;
             width: 372px;
-            height: 372px;
+            height: 370px;
             ul{
               font-size: 0;
               li{
                 font-size: 11px;
+                display: inline-block;
+                &:first-child+li{
+                  float: right;
+                  padding-bottom: 10px;
+                }
                 a{
                   img{
                     width: 180px;
@@ -306,11 +320,14 @@
                 }
               }
             }
-          } // gray_section1 end
+          } //gray_section1 end
+        } // gray_section1클래스의 li end
+        li{
+          float: left;
           .gray_section2{
-            border: 1px #000 solid;
+            outline: 1px #000 solid;
             width: 410px;
-            height: 372px;
+            height: 370px;
             // display: inline-block;
             ul{
               font-size: 0;
@@ -320,20 +337,27 @@
                   font-size: 11px;
                   img{
                     width: 410px;
-                    height: 372px;
+                    height: 370px;
                   }
                 }
               }
             }
           } // gray_section2 end
+        } // gray_section2클래스의 li end
+        li{
+          // display: inline-block;
           .gray_section3{
-            border: 1px #000 solid;
+            outline: 1px #000 solid;
             width: 372px;
-            height: 372px;
+            height: 370px;
             ul{
               font-size: 0;
               li{
                 font-size: 11px;
+                &:first-child+li{
+                  float: right;
+                  padding-bottom: 10px;
+                }
                 a{
                   img{
                     width: 180px;
@@ -347,7 +371,7 @@
               }
             }
           } // gray_section3 end
-        }
+        } // gray_section3클래스의 li end
       }
     } // gray end
   } // enjoy_4 end
