@@ -54,7 +54,43 @@
    }
    google.maps.event.addDomListener(window, 'load', initialize);
 
+  // 메인 글자타이핑
+   function character() {
+   	this.length = character.arguments.length;
+   	for (i=0; i<this.length; i++)
+   		this[i+1] = character.arguments[i];
+   }
 
+   function do_type() {                   //타자 효과를 내는 함수
+   	if (x==viewstr.length+1) {
+   		for (n=0; n<100000; n++);         //루프를 계속 돌리기 위해 큰 수 사용한 것임
+   		y+=1;
+   		if (y>0) y=0;
+   		document.getElementById("viewer").innerHTML=' ';
+   		viewstr = item[y];
+   		x=0;
+   	}
+   	document.getElementById("viewer").innerHTML=viewstr.substring(0,x);   //화면에 문장 표시
+   	x+=1;
+   	setTimeout("do_type()",150);
+   }
+   </script>
+   <script type="text/javascript">
+   var item = new character();
+   item[0]="WELCOME TO SEOUL FESTIVAL!";
+  //  item[1]="서울축제에 오신것을 환영합니다:)";
+
+   var x=1, y=0, n=0;
+   var viewstr = item[y];
+
+   window.onload = function(){
+   	do_type();
+   };
+
+   $(function() {
+    var gnb_top = $('.section_1').offset().top;
+    console.log(gnb_top);
+   });
 
   </script>
 </head>
@@ -83,7 +119,8 @@
       </div><!-- gnb end -->
       <!-- main 이미지 안에 큰글씨 (나중에 움직이게 할꺼임)-->
       <div class="main_text">
-        <h1>welcome to seoul</h1>
+        <!-- <h1>welcome to seoul</h1> -->
+        <p id="viewer"></p>
         <button type="button" name="button">read more</button>
       </div><!-- main_text end  -->
     </div><!-- heaer end -->

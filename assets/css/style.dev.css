@@ -108,17 +108,19 @@ button {
 /* line 72, assets\less\style.less */
 .wrap .header .main_text {
   position: absolute;
-  top: 45%;
-  left: 38%;
+  width: 700px;
+  margin: 0 auto;
+  top: 39%;
+  left: 32%;
 }
-/* line 77, assets\less\style.less */
-.wrap .header .main_text h1 {
+/* line 86, assets\less\style.less */
+.wrap .header .main_text #viewer {
+  height: 80px;
   font-size: 45px;
-  color: #fff;
   font-weight: bold;
-  text-transform: uppercase;
+  color: #fff;
 }
-/* line 83, assets\less\style.less */
+/* line 93, assets\less\style.less */
 .wrap .header .main_text button {
   outline: none;
   color: #fff;
@@ -130,25 +132,25 @@ button {
   margin-top: 95px;
   margin-left: 35%;
 }
-/* line 98, assets\less\style.less */
+/* line 108, assets\less\style.less */
 .wrap .section_1 {
   outline: 1px #000 solid;
   height: 780px;
 }
-/* line 101, assets\less\style.less */
+/* line 111, assets\less\style.less */
 .wrap .section_1 .title {
   height: 130px;
   border: 1px #000 solid;
   padding-top: 90px;
   position: relative;
 }
-/* line 106, assets\less\style.less */
+/* line 116, assets\less\style.less */
 .wrap .section_1 .title h2 {
   text-align: center;
   text-transform: uppercase;
   font-size: 17px;
 }
-/* line 111, assets\less\style.less */
+/* line 121, assets\less\style.less */
 .wrap .section_1 .title span {
   width: 70px;
   height: 2px;
@@ -158,7 +160,7 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 123, assets\less\style.less */
+/* line 133, assets\less\style.less */
 .wrap .section_1 .title p {
   padding-top: 40px;
   font-size: 11px;
@@ -168,7 +170,7 @@ button {
   margin: 0 auto;
   line-height: 20px;
 }
-/* line 133, assets\less\style.less */
+/* line 143, assets\less\style.less */
 .wrap .section_1 .contents {
   height: 480px;
   border: 1px #f00 solid;
@@ -176,12 +178,12 @@ button {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.5);
 }
-/* line 139, assets\less\style.less */
+/* line 149, assets\less\style.less */
 .wrap .section_1 .contents ul {
   font-size: 0;
   margin-bottom: 28px;
 }
-/* line 142, assets\less\style.less */
+/* line 152, assets\less\style.less */
 .wrap .section_1 .contents ul li {
   display: inline-block;
   font-size: 10px;
@@ -191,46 +193,46 @@ button {
   margin-right: 20px;
   border-radius: 5%;
 }
-/* line 150, assets\less\style.less */
+/* line 160, assets\less\style.less */
 .wrap .section_1 .contents ul li a {
   text-transform: uppercase;
 }
-/* line 152, assets\less\style.less */
+/* line 162, assets\less\style.less */
 .wrap .section_1 .contents ul li a img {
   width: 38px;
   height: 36px;
   padding-top: 60px;
   padding-bottom: 30px;
 }
-/* line 159, assets\less\style.less */
+/* line 169, assets\less\style.less */
 .wrap .section_1 .contents ul li:hover {
   background-color: #e6e6e6;
   font-weight: bold;
 }
-/* line 161, assets\less\style.less */
+/* line 171, assets\less\style.less */
 .wrap .section_1 .contents ul li:hover img {
   transform: scale(1.3);
   transition: transform .35s;
 }
-/* line 171, assets\less\style.less */
+/* line 181, assets\less\style.less */
 .wrap .section_2 {
   background-color: #f6f6f6;
   height: 1000px;
   outline: 1px #000 solid;
   padding-top: 90px;
 }
-/* line 176, assets\less\style.less */
+/* line 186, assets\less\style.less */
 .wrap .section_2 .sec_title {
   position: relative;
   height: 130px;
 }
-/* line 179, assets\less\style.less */
+/* line 189, assets\less\style.less */
 .wrap .section_2 .sec_title h2 {
   text-align: center;
   text-transform: uppercase;
   font-size: 17px;
 }
-/* line 184, assets\less\style.less */
+/* line 194, assets\less\style.less */
 .wrap .section_2 .sec_title span {
   width: 70px;
   height: 2px;
@@ -240,18 +242,18 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 203, assets\less\style.less */
+/* line 213, assets\less\style.less */
 .wrap .section_2 .food_img ul li {
   position: relative;
   float: left;
 }
-/* line 209, assets\less\style.less */
+/* line 219, assets\less\style.less */
 .wrap .section_2 .food_img ul li a img {
   height: 310px;
   width: 317px;
   -webkit-filter: grayscale(100%);
 }
-/* line 217, assets\less\style.less */
+/* line 227, assets\less\style.less */
 .wrap .section_2 .food_img button {
   outline: none;
   color: #13a9dc;
@@ -264,24 +266,24 @@ button {
   margin-top: 95px;
   margin-left: 46%;
 }
-/* line 232, assets\less\style.less */
+/* line 242, assets\less\style.less */
 .wrap .section_3 {
   height: 500px;
   outline: 1px #000 solid;
   padding-top: 90px;
 }
-/* line 237, assets\less\style.less */
+/* line 247, assets\less\style.less */
 .wrap .section_3 .sec_title {
   position: relative;
   height: 130px;
 }
-/* line 240, assets\less\style.less */
+/* line 250, assets\less\style.less */
 .wrap .section_3 .sec_title h2 {
   text-align: center;
   text-transform: uppercase;
   font-size: 17px;
 }
-/* line 245, assets\less\style.less */
+/* line 255, assets\less\style.less */
 .wrap .section_3 .sec_title span {
   width: 70px;
   height: 2px;
@@ -291,11 +293,11 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 258, assets\less\style.less */
+/* line 268, assets\less\style.less */
 .wrap .section_3 .recommend {
   position: relative;
 }
-/* line 260, assets\less\style.less */
+/* line 270, assets\less\style.less */
 .wrap .section_3 .recommend button {
   position: absolute;
   top: 40%;
@@ -303,21 +305,21 @@ button {
   border: 0;
   background-color: rgba(255, 255, 255, 0);
 }
-/* line 266, assets\less\style.less */
+/* line 276, assets\less\style.less */
 .wrap .section_3 .recommend button img {
   width: 35px;
   height: 35px;
 }
-/* line 270, assets\less\style.less */
+/* line 280, assets\less\style.less */
 .wrap .section_3 .recommend button:first-child {
   left: 10%;
 }
-/* line 275, assets\less\style.less */
+/* line 285, assets\less\style.less */
 .wrap .section_3 .recommend:last-child button {
   float: right;
   right: 10%;
 }
-/* line 279, assets\less\style.less */
+/* line 289, assets\less\style.less */
 .wrap .section_3 .recommend .r_contents {
   outline: 1px #000 solid;
   width: 1000px;
@@ -325,7 +327,7 @@ button {
   margin: 0 auto;
   background-color: rgba(19, 169, 220, 0.1);
 }
-/* line 288, assets\less\style.less */
+/* line 298, assets\less\style.less */
 .wrap .section_3 .recommend .r_contents .r_img img {
   width: 272px;
   height: 194px;
@@ -333,71 +335,71 @@ button {
   opacity: 0.5;
   border: 1px #000 solid;
 }
-/* line 295, assets\less\style.less */
+/* line 305, assets\less\style.less */
 .wrap .section_3 .recommend .r_contents .r_img .content_write {
   float: right;
   margin: 35px 75px 26px 0;
 }
-/* line 298, assets\less\style.less */
+/* line 308, assets\less\style.less */
 .wrap .section_3 .recommend .r_contents .r_img .content_write h3 {
   font-size: 16px;
   margin-bottom: 48px;
 }
-/* line 302, assets\less\style.less */
+/* line 312, assets\less\style.less */
 .wrap .section_3 .recommend .r_contents .r_img .content_write p {
   font-size: 11px;
 }
-/* line 304, assets\less\style.less */
+/* line 314, assets\less\style.less */
 .wrap .section_3 .recommend .r_contents .r_img .content_write p:last-child {
   margin-top: 50px;
 }
-/* line 353, assets\less\style.less */
+/* line 363, assets\less\style.less */
 .wrap .section_4 {
   height: 400px;
   outline: 1px #000 solid;
 }
-/* line 358, assets\less\style.less */
+/* line 368, assets\less\style.less */
 .wrap .section_4 #map_canvas {
   width: 100%;
   height: 100%;
 }
-/* line 363, assets\less\style.less */
+/* line 373, assets\less\style.less */
 .wrap .footer {
   height: 55px;
   outline: 1px #00f solid;
   background-color: #000;
 }
-/* line 367, assets\less\style.less */
+/* line 377, assets\less\style.less */
 .wrap .footer ul {
   outline: 1px #f00 solid;
   text-align: right;
   line-height: 55px;
 }
-/* line 372, assets\less\style.less */
+/* line 382, assets\less\style.less */
 .wrap .footer ul li {
   outline: 1px #f0f solid;
   padding-right: 25px;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 378, assets\less\style.less */
+/* line 388, assets\less\style.less */
 .wrap .footer ul li a img {
   height: 17px;
   width: 17px;
   margin-top: 18px;
 }
-/* line 384, assets\less\style.less */
+/* line 394, assets\less\style.less */
 .wrap .footer ul li button {
   border: 0;
   background-color: #13a9dc;
 }
-/* line 387, assets\less\style.less */
+/* line 397, assets\less\style.less */
 .wrap .footer ul li button img {
   height: 10px;
   width: 13px;
   padding-bottom: 5px;
 }
-/* line 393, assets\less\style.less */
+/* line 403, assets\less\style.less */
 .wrap .footer ul li:last-child {
   margin-left: 50px;
   margin-right: 135px;
