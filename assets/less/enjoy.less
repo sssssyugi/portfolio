@@ -5,6 +5,7 @@
   font-family: 'Libre Franklin', sans-serif;
   header{
     position: relative;
+    height: 70px;
     .gnb{
       z-index: 100;
       position: fixed;
@@ -21,7 +22,7 @@
         // padding-left: 60%;
         font-size: 0;
         height: 100%;
-        width: 1000px;
+        width: 840px;
         outline: 1px #fff solid;
         margin: 0 auto;
         li{
@@ -67,7 +68,6 @@
   .enjoy_1{
     width: 100%;
     outline: 1px #f00 solid;
-    position: absolute;
     top: 70px;
     text-align: center;
     height: 400px;
@@ -83,6 +83,7 @@
       height: 2px;
       background-color: #13a9dc;
       // text-align: center;
+      // 여기
       position:absolute;
       top:36%;
       left:50%;
@@ -102,7 +103,6 @@
     width: 100%;
     height: 655px;
     outline: 1px #000 solid;
-    position: absolute;
     top: 470px;
     text-align: center;
     .title{
@@ -117,6 +117,7 @@
         height: 2px;
         background-color: #13a9dc;
         // text-align: center;
+        // 여기
         position:absolute;
         top:23%;
         left:50%;
@@ -163,7 +164,6 @@
   .enjoy_3{
     width: 100%;
     height: 720px;
-    position: absolute;
     top:1125px;
     outline: 1px #000 solid;
     text-align: center;
@@ -179,6 +179,7 @@
         height: 2px;
         background-color: #13a9dc;
         // text-align: center;
+        // 여기
         position:absolute;
         top:23%;
         left:50%;
@@ -256,7 +257,6 @@
   .enjoy_4{
     width: 100%;
     height: 720px;
-    position: absolute;
     top:1845px;
     outline: 1px #000 solid;
     text-align: center;
@@ -273,6 +273,7 @@
         height: 2px;
         background-color: #13a9dc;
         // text-align: center;
+        // 여기
         position:absolute;
         top:23%;
         left:50%;
@@ -375,4 +376,44 @@
       }
     } // gray end
   } // enjoy_4 end
+  .footer{
+    height: 55px;
+    outline: 1px #00f solid;
+    background-color: #000;
+    ul{
+      outline: 1px #f00 solid;
+      // line-height: 50px;
+      text-align: right;
+      line-height: 55px;
+      li{
+        outline: 1px #f0f solid;
+        padding-right: 25px;
+        display: inline-block;
+        vertical-align: middle;
+        a{
+          img{
+            height: 17px;
+            width: 17px;
+            margin-top: 18px;
+          }
+        }
+        button{
+          border: 0;
+          background-color: rgba(19 , 169, 220 , 1);
+          img{
+            height: 10px;
+            width: 13px;
+            padding-bottom: 5px;
+          }
+        }
+        &:last-child{
+          margin-left: 50px;
+          margin-right: 135px;
+          background-color: #13a9dc;
+          // margin-top: 18px;
+          padding: 0 15px;
+        }
+      }
+    }
+  } // footer end
 }

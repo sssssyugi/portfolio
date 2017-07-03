@@ -415,9 +415,8 @@ button {
 /* line 6, assets\less\enjoy.less */
 .wrap header {
   position: relative;
-  height: 70px;
 }
-/* line 9, assets\less\enjoy.less */
+/* line 8, assets\less\enjoy.less */
 .wrap header .gnb {
   z-index: 100;
   position: fixed;
@@ -426,12 +425,12 @@ button {
   line-height: 70px;
   background-color: #323232;
 }
-/* line 17, assets\less\enjoy.less */
+/* line 16, assets\less\enjoy.less */
 .wrap header .gnb img {
   width: 100%;
   height: 100%;
 }
-/* line 21, assets\less\enjoy.less */
+/* line 20, assets\less\enjoy.less */
 .wrap header .gnb ul {
   font-size: 0;
   height: 100%;
@@ -439,33 +438,33 @@ button {
   outline: 1px #fff solid;
   margin: 0 auto;
 }
-/* line 28, assets\less\enjoy.less */
+/* line 27, assets\less\enjoy.less */
 .wrap header .gnb ul li {
   font-size: 11px;
   float: left;
   margin-right: 15px;
 }
-/* line 32, assets\less\enjoy.less */
+/* line 31, assets\less\enjoy.less */
 .wrap header .gnb ul li a {
   color: #fff;
   padding: 10px 35px 10px 35px;
 }
-/* line 36, assets\less\enjoy.less */
+/* line 35, assets\less\enjoy.less */
 .wrap header .gnb ul li a:hover {
   background-color: #99286b;
   border-radius: 5%;
 }
-/* line 47, assets\less\enjoy.less */
+/* line 46, assets\less\enjoy.less */
 .wrap header .gnb ul li .on {
   background-color: #99286b;
   border-radius: 5%;
   padding: 10px 35px 10px 35px;
 }
-/* line 52, assets\less\enjoy.less */
+/* line 51, assets\less\enjoy.less */
 .wrap header .gnb ul li:last-child {
   padding-left: 70px;
 }
-/* line 55, assets\less\enjoy.less */
+/* line 54, assets\less\enjoy.less */
 .wrap header .gnb ul li button {
   border: 0;
   outline: none;
@@ -475,10 +474,11 @@ button {
   transform: rotate(-14deg);
   margin-top: 27px;
 }
-/* line 68, assets\less\enjoy.less */
+/* line 67, assets\less\enjoy.less */
 .wrap .enjoy_1 {
   width: 100%;
   outline: 1px #f00 solid;
+  position: absolute;
   top: 70px;
   text-align: center;
   height: 400px;
@@ -499,7 +499,7 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 93, assets\less\enjoy.less */
+/* line 92, assets\less\enjoy.less */
 .wrap .enjoy_1 p {
   padding-top: 60px;
   font-size: 11px;
@@ -507,11 +507,12 @@ button {
   margin: 0 auto;
   line-height: 27px;
 }
-/* line 102, assets\less\enjoy.less */
+/* line 101, assets\less\enjoy.less */
 .wrap .enjoy_2 {
   width: 100%;
   height: 655px;
   outline: 1px #000 solid;
+  position: absolute;
   top: 470px;
   text-align: center;
 }
@@ -531,7 +532,7 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 127, assets\less\enjoy.less */
+/* line 126, assets\less\enjoy.less */
 .wrap .enjoy_2 .title p {
   padding-top: 60px;
   font-size: 11px;
@@ -539,12 +540,12 @@ button {
   margin: 0 auto;
   line-height: 27px;
 }
-/* line 138, assets\less\enjoy.less */
+/* line 137, assets\less\enjoy.less */
 .wrap .enjoy_2 .contents ul {
   font-size: 0;
   padding-top: 100px;
 }
-/* line 141, assets\less\enjoy.less */
+/* line 140, assets\less\enjoy.less */
 .wrap .enjoy_2 .contents ul li {
   font-size: 11px;
   border: 1px #fff solid;
@@ -555,22 +556,23 @@ button {
   border-radius: 5%;
   background-color: #99286b;
 }
-/* line 150, assets\less\enjoy.less */
+/* line 149, assets\less\enjoy.less */
 .wrap .enjoy_2 .contents ul li a {
   text-transform: uppercase;
   color: #fff;
 }
-/* line 153, assets\less\enjoy.less */
+/* line 152, assets\less\enjoy.less */
 .wrap .enjoy_2 .contents ul li a img {
   width: 50px;
   height: 50px;
   padding-top: 75px;
   padding-bottom: 32px;
 }
-/* line 164, assets\less\enjoy.less */
+/* line 163, assets\less\enjoy.less */
 .wrap .enjoy_3 {
   width: 100%;
   height: 720px;
+  position: absolute;
   top: 1125px;
   outline: 1px #000 solid;
   text-align: center;
@@ -591,7 +593,7 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 190, assets\less\enjoy.less */
+/* line 189, assets\less\enjoy.less */
 .wrap .enjoy_3 .slide {
   outline: 1px #000 solid;
   width: 100%;
@@ -599,7 +601,7 @@ button {
   margin-top: 100px;
   background-color: #323232;
 }
-/* line 196, assets\less\enjoy.less */
+/* line 195, assets\less\enjoy.less */
 .wrap .enjoy_3 .slide button {
   outline: 0;
   border: 0;
@@ -608,20 +610,20 @@ button {
   margin-top: 12%;
   padding: 10px;
 }
-/* line 203, assets\less\enjoy.less */
+/* line 202, assets\less\enjoy.less */
 .wrap .enjoy_3 .slide button:first-child {
   float: left;
 }
-/* line 206, assets\less\enjoy.less */
+/* line 205, assets\less\enjoy.less */
 .wrap .enjoy_3 .slide button img {
   width: 60px;
   height: 60px;
 }
-/* line 211, assets\less\enjoy.less */
+/* line 210, assets\less\enjoy.less */
 .wrap .enjoy_3 .slide ul {
   padding-top: 4%;
 }
-/* line 213, assets\less\enjoy.less */
+/* line 212, assets\less\enjoy.less */
 .wrap .enjoy_3 .slide ul li {
   position: relative;
   display: inline-block;
@@ -630,19 +632,19 @@ button {
   outline: 1px #000 solid;
   margin-right: 2%;
 }
-/* line 220, assets\less\enjoy.less */
+/* line 219, assets\less\enjoy.less */
 .wrap .enjoy_3 .slide ul li a {
   color: #fff;
   font-size: 13px;
 }
-/* line 223, assets\less\enjoy.less */
+/* line 222, assets\less\enjoy.less */
 .wrap .enjoy_3 .slide ul li a img {
   display: block;
   width: 100%;
   height: 370px;
   margin: 0;
 }
-/* line 231, assets\less\enjoy.less */
+/* line 230, assets\less\enjoy.less */
 .wrap .enjoy_3 .slide ul li .slide_txt {
   outline: 1px #000 solid;
   width: 100%;
@@ -653,21 +655,22 @@ button {
   padding-bottom: 1%;
   padding-top: 1%;
 }
-/* line 242, assets\less\enjoy.less */
+/* line 241, assets\less\enjoy.less */
 .wrap .enjoy_3 .slide ul li .slide_txt h3 {
   margin-bottom: 2%;
   font-size: 16px;
 }
-/* line 246, assets\less\enjoy.less */
+/* line 245, assets\less\enjoy.less */
 .wrap .enjoy_3 .slide ul li .slide_txt span {
   float: left;
   margin-left: 3%;
   line-height: 150%;
 }
-/* line 257, assets\less\enjoy.less */
+/* line 256, assets\less\enjoy.less */
 .wrap .enjoy_4 {
   width: 100%;
   height: 720px;
+  position: absolute;
   top: 1845px;
   outline: 1px #000 solid;
   text-align: center;
@@ -692,445 +695,105 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 284, assets\less\enjoy.less */
+/* line 283, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray {
   margin-top: 100px;
 }
-/* line 286, assets\less\enjoy.less */
+/* line 285, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray .gray_ul {
   outline: 1px #000 solid;
   height: 381px;
   width: 1190px;
   margin: 0 auto;
 }
-/* line 294, assets\less\enjoy.less */
+/* line 293, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul .gray_li {
   outline: 1px #0f0 solid;
   margin: 0.5%;
 }
-/* line 299, assets\less\enjoy.less */
+/* line 298, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section1 {
   outline: 1px #000 solid;
   width: 372px;
   height: 370px;
 }
-/* line 303, assets\less\enjoy.less */
+/* line 302, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section1 ul {
   font-size: 0;
 }
-/* line 305, assets\less\enjoy.less */
+/* line 304, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section1 ul li {
   font-size: 11px;
   display: inline-block;
 }
-/* line 308, assets\less\enjoy.less */
+/* line 307, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section1 ul li:first-child + li {
   float: right;
   padding-bottom: 10px;
 }
-/* line 313, assets\less\enjoy.less */
+/* line 312, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section1 ul li a img {
   width: 180px;
   height: 180px;
 }
-/* line 318, assets\less\enjoy.less */
+/* line 317, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section1 ul li:last-child img {
   width: 372px;
   height: 180px;
 }
-/* line 326, assets\less\enjoy.less */
+/* line 325, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li {
   float: left;
 }
-/* line 328, assets\less\enjoy.less */
+/* line 327, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section2 {
   outline: 1px #000 solid;
   width: 410px;
   height: 370px;
 }
-/* line 333, assets\less\enjoy.less */
+/* line 332, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section2 ul {
   font-size: 0;
 }
-/* line 335, assets\less\enjoy.less */
+/* line 334, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section2 ul li {
   font-size: 11px;
 }
-/* line 337, assets\less\enjoy.less */
+/* line 336, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section2 ul li a {
   font-size: 11px;
 }
-/* line 339, assets\less\enjoy.less */
+/* line 338, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section2 ul li a img {
   width: 410px;
   height: 370px;
 }
-/* line 350, assets\less\enjoy.less */
+/* line 349, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section3 {
   outline: 1px #000 solid;
   width: 372px;
   height: 370px;
 }
-/* line 354, assets\less\enjoy.less */
+/* line 353, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section3 ul {
   font-size: 0;
 }
-/* line 356, assets\less\enjoy.less */
+/* line 355, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section3 ul li {
   font-size: 11px;
 }
-/* line 358, assets\less\enjoy.less */
+/* line 357, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section3 ul li:first-child + li {
   float: right;
   padding-bottom: 10px;
 }
-/* line 363, assets\less\enjoy.less */
+/* line 362, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section3 ul li a img {
   width: 180px;
   height: 180px;
 }
-/* line 368, assets\less\enjoy.less */
+/* line 367, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section3 ul li:last-child img {
   width: 372px;
   height: 180px;
-}
-/* line 379, assets\less\enjoy.less */
-.wrap .footer {
-  height: 55px;
-  outline: 1px #00f solid;
-  background-color: #000;
-}
-/* line 383, assets\less\enjoy.less */
-.wrap .footer ul {
-  outline: 1px #f00 solid;
-  text-align: right;
-  line-height: 55px;
-}
-/* line 388, assets\less\enjoy.less */
-.wrap .footer ul li {
-  outline: 1px #f0f solid;
-  padding-right: 25px;
-  display: inline-block;
-  vertical-align: middle;
-}
-/* line 394, assets\less\enjoy.less */
-.wrap .footer ul li a img {
-  height: 17px;
-  width: 17px;
-  margin-top: 18px;
-}
-/* line 400, assets\less\enjoy.less */
-.wrap .footer ul li button {
-  border: 0;
-  background-color: #13a9dc;
-}
-/* line 403, assets\less\enjoy.less */
-.wrap .footer ul li button img {
-  height: 10px;
-  width: 13px;
-  padding-bottom: 5px;
-}
-/* line 409, assets\less\enjoy.less */
-.wrap .footer ul li:last-child {
-  margin-left: 50px;
-  margin-right: 135px;
-  background-color: #13a9dc;
-  padding: 0 15px;
-}
-/* line 1, assets\less\food.less */
-.wrap {
-  width: 100%;
-  height: 100%;
-}
-/* line 5, assets\less\food.less */
-.wrap header {
-  position: relative;
-  height: 70px;
-}
-/* line 8, assets\less\food.less */
-.wrap header .gnb {
-  z-index: 100;
-  position: fixed;
-  width: 100%;
-  height: 70px;
-  line-height: 70px;
-  background-color: #323232;
-}
-/* line 16, assets\less\food.less */
-.wrap header .gnb img {
-  width: 100%;
-  height: 100%;
-}
-/* line 20, assets\less\food.less */
-.wrap header .gnb ul {
-  font-size: 0;
-  height: 100%;
-  width: 840px;
-  outline: 1px #fff solid;
-  margin: 0 auto;
-}
-/* line 27, assets\less\food.less */
-.wrap header .gnb ul li {
-  font-size: 11px;
-  float: left;
-  margin-right: 15px;
-}
-/* line 31, assets\less\food.less */
-.wrap header .gnb ul li a {
-  color: #fff;
-  padding: 10px 35px 10px 35px;
-}
-/* line 35, assets\less\food.less */
-.wrap header .gnb ul li a:hover {
-  background-color: #e38724;
-  border-radius: 5%;
-}
-/* line 46, assets\less\food.less */
-.wrap header .gnb ul li .on {
-  background-color: #e38724;
-  border-radius: 5%;
-  padding: 10px 35px 10px 35px;
-}
-/* line 51, assets\less\food.less */
-.wrap header .gnb ul li:last-child {
-  padding-left: 70px;
-}
-/* line 54, assets\less\food.less */
-.wrap header .gnb ul li button {
-  border: 0;
-  outline: none;
-  background-color: rgba(255, 255, 255, 0);
-  width: 16px;
-  height: 16px;
-  transform: rotate(-14deg);
-  margin-top: 27px;
-}
-/* line 67, assets\less\food.less */
-.wrap .food_1 {
-  outline: 1px #000 solid;
-  height: 652px;
-}
-/* line 70, assets\less\food.less */
-.wrap .food_1 .title {
-  height: 130px;
-  outline: 1px #000 solid;
-  padding-top: 90px;
-  position: relative;
-}
-/* line 75, assets\less\food.less */
-.wrap .food_1 .title h2 {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 17px;
-}
-/* line 80, assets\less\food.less */
-.wrap .food_1 .title span {
-  width: 70px;
-  height: 2px;
-  background-color: #13a9dc;
-  position: absolute;
-  top: 59%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-/* line 92, assets\less\food.less */
-.wrap .food_1 .title p {
-  padding-top: 40px;
-  font-size: 11px;
-  text-align: center;
-  width: 722px;
-  outline: 1px #000 solid;
-  margin: 0 auto;
-  line-height: 20px;
-}
-/* line 102, assets\less\food.less */
-.wrap .food_1 .slide {
-  height: 430px;
-  outline: 1px #f00 solid;
-  text-align: center;
-  background-color: #323232;
-}
-/* line 108, assets\less\food.less */
-.wrap .food_1 .slide button {
-  outline: 0;
-  border: 0;
-  background-color: rgba(255, 255, 255, 0);
-  float: right;
-  margin-top: 9%;
-  padding: 10px;
-}
-/* line 115, assets\less\food.less */
-.wrap .food_1 .slide button:first-child {
-  float: left;
-}
-/* line 118, assets\less\food.less */
-.wrap .food_1 .slide button img {
-  width: 60px;
-  height: 60px;
-}
-/* line 123, assets\less\food.less */
-.wrap .food_1 .slide ul {
-  overflow: hidden;
-  font-size: 0;
-}
-/* line 126, assets\less\food.less */
-.wrap .food_1 .slide ul li {
-  font-size: 11px;
-  display: inline-block;
-}
-/* line 130, assets\less\food.less */
-.wrap .food_1 .slide ul li:first-child {
-  float: left;
-}
-/* line 133, assets\less\food.less */
-.wrap .food_1 .slide ul li:last-child {
-  float: right;
-}
-/* line 137, assets\less\food.less */
-.wrap .food_1 .slide ul li a div {
-  position: relative;
-}
-/* line 139, assets\less\food.less */
-.wrap .food_1 .slide ul li a div img {
-  width: 400px;
-  height: 430px;
-}
-/* line 143, assets\less\food.less */
-.wrap .food_1 .slide ul li a div .txt {
-  position: absolute;
-  width: 270px;
-  height: 109px;
-  border: 1px #fff solid;
-  top: 40%;
-  left: 55%;
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 30px;
-  line-height: 18px;
-}
-/* line 154, assets\less\food.less */
-.wrap .food_1 .slide ul li a div .txt span {
-  display: block;
-  color: #fff;
-}
-/* line 157, assets\less\food.less */
-.wrap .food_1 .slide ul li a div .txt span:first-child {
-  font-size: 13px;
-  font-weight: bold;
-  margin-bottom: 3%;
-}
-/* line 170, assets\less\food.less */
-.wrap .food_2 {
-  outline: 1px #000 solid;
-  height: 2070px;
-}
-/* line 173, assets\less\food.less */
-.wrap .food_2 .title {
-  height: 130px;
-  outline: 1px #000 solid;
-  padding-top: 90px;
-  position: relative;
-}
-/* line 178, assets\less\food.less */
-.wrap .food_2 .title h2 {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 17px;
-}
-/* line 183, assets\less\food.less */
-.wrap .food_2 .title span {
-  width: 70px;
-  height: 2px;
-  background-color: #13a9dc;
-  position: absolute;
-  top: 59%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-/* line 195, assets\less\food.less */
-.wrap .food_2 .title p {
-  padding-top: 40px;
-  font-size: 11px;
-  text-align: center;
-  width: 722px;
-  outline: 1px #000 solid;
-  margin: 0 auto;
-  line-height: 20px;
-}
-/* line 206, assets\less\food.less */
-.wrap .food_2 .list ul {
-  font-size: 0;
-}
-/* line 208, assets\less\food.less */
-.wrap .food_2 .list ul li {
-  font-size: 13px;
-  outline: 1px #000 solid;
-  width: 1000px;
-  height: 241px;
-  margin: 0 auto;
-}
-/* line 215, assets\less\food.less */
-.wrap .food_2 .list ul li a div {
-  margin-top: 1.5%;
-}
-/* line 218, assets\less\food.less */
-.wrap .food_2 .list ul li a img {
-  width: 200px;
-  height: 200px;
-  padding: 2%;
-}
-/* line 223, assets\less\food.less */
-.wrap .food_2 .list ul li a .txt {
-  float: right;
-  margin-right: 4%;
-  padding: 2%;
-  line-height: 35px;
-  margin-top: 2.5%;
-  width: 658px;
-}
-/* line 230, assets\less\food.less */
-.wrap .food_2 .list ul li a .txt span {
-  display: block;
-}
-/* line 239, assets\less\food.less */
-.wrap .footer {
-  height: 55px;
-  outline: 1px #00f solid;
-  background-color: #000;
-}
-/* line 243, assets\less\food.less */
-.wrap .footer ul {
-  outline: 1px #f00 solid;
-  text-align: right;
-  line-height: 55px;
-}
-/* line 248, assets\less\food.less */
-.wrap .footer ul li {
-  outline: 1px #f0f solid;
-  padding-right: 25px;
-  display: inline-block;
-  vertical-align: middle;
-}
-/* line 254, assets\less\food.less */
-.wrap .footer ul li a img {
-  height: 17px;
-  width: 17px;
-  margin-top: 18px;
-}
-/* line 260, assets\less\food.less */
-.wrap .footer ul li button {
-  border: 0;
-  background-color: #13a9dc;
-}
-/* line 263, assets\less\food.less */
-.wrap .footer ul li button img {
-  height: 10px;
-  width: 13px;
-  padding-bottom: 5px;
-}
-/* line 269, assets\less\food.less */
-.wrap .footer ul li:last-child {
-  margin-left: 50px;
-  margin-right: 135px;
-  background-color: #13a9dc;
-  padding: 0 15px;
 }
