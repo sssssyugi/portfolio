@@ -72,12 +72,12 @@
    	}
    	document.getElementById("viewer").innerHTML=viewstr.substring(0,x);   //화면에 문장 표시
    	x+=1;
-   	setTimeout("do_type()",150);
+   	setTimeout("do_type()",100);
    }
    </script>
    <script type="text/javascript">
    var item = new character();
-   item[0]="WELCOME TO SEOUL FESTIVAL!";
+   item[0]="WELCOME TO SEOUL FESTIVAL";
   //  item[1]="서울축제에 오신것을 환영합니다:)";
 
    var x=1, y=0, n=0;
@@ -86,11 +86,6 @@
    window.onload = function(){
    	do_type();
    };
-
-   $(function() {
-    var gnb_top = $('.section_1').offset().top;
-    console.log(gnb_top);
-   });
 
   </script>
 </head>
@@ -102,7 +97,7 @@
       <!-- <a href="#">
         <img src="../assets/images/main.jpg" alt="">
       </a> -->
-      <img src="../assets/images/main.jpg" alt="">
+      <img src="../assets/images/main/main.png" alt="">
       <div class="gnb">
         <ul>
           <li class="on"><a href="#">Home</a></li>
@@ -138,10 +133,10 @@
             <a href="#"><img src="../assets/images/festival.png" alt=""><br>festival</a>
           </li>
           <li>
-            <a href="#"><img src="../assets/images/traffic.png" alt=""><br>traffic</a>
+            <a href="#"><img src="../assets/images/shopping.png" alt=""><br>enjoy</a>
           </li>
           <li>
-            <a href="#"><img src="../assets/images/shopping.png" alt=""><br>shopping</a>
+            <a href="#"><img src="../assets/images/food.png" alt=""><br>food</a>
           </li>
           <li>
             <a href="#"><img src="../assets/images/search.png" alt=""><br>search</a>
@@ -152,7 +147,7 @@
             <a href="#"><img src="../assets/images/area.png" alt=""><br>area</a>
           </li>
           <li>
-            <a href="#"><img src="../assets/images/food.png" alt=""><br>food</a>
+            <a href="#"><img src="../assets/images/traffic.png" alt=""><br>traffic</a>
           </li>
           <li>
             <a href="#"><img src="../assets/images/stay.png" alt=""><br>stay</a>
@@ -172,66 +167,56 @@
       <div class="food_img">
         <ul>
           <li>
-            <a href="#">
-              <img src="../assets/images/eel.jpg" alt="">
-            </a>
+            <div>
+              <a href="#"><img src="../assets/images/main/main_1.png" alt=""></a>
+            </div>
           </li>
           <li>
-            <a href="#">
-              <img src="../assets/images/grape.jpg" alt="">
-            </a>
+            <div>
+              <a href="#"><img src="../assets/images/main/main_2.jpg" alt=""></a>
+            </div>
           </li>
           <li>
-            <a href="#">
-              <img src="../assets/images/chicken.jpg" alt="">
-            </a>
+            <div>
+              <a href="#"><img src="../assets/images/main/main_3.jpg" alt=""></a>
+            </div>
           </li>
           <li>
-            <a href="#">
-              <img src="../assets/images/rice.jpg" alt="">
-            </a>
+            <div>
+              <a href="#"><img src="../assets/images/main/main_4.jpg" alt=""></a>
+            </div>
           </li>
           <li>
-            <a href="#">
-              <img src="../assets/images/shrimp.jpg" alt="">
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="../assets/images/crab2.jpg" alt="">
-            </a>
+            <div>
+              <a href="#"><img src="../assets/images/main/main_5.jpg" alt=""></a>
+            </div>
           </li>
         </ul>
         <ul>
           <li>
-            <a href="#">
-              <img src="../assets/images/watermelon.jpg" alt="">
-            </a>
+            <div>
+              <a href="#"><img src="../assets/images/main/main_6.jpg" alt=""></a>
+            </div>
           </li>
           <li>
-            <a href="#">
-              <img src="../assets/images/fish.png" alt="">
-            </a>
+            <div>
+              <a href="#"><img src="../assets/images/main/main_7.jpg" alt=""></a>
+            </div>
           </li>
           <li>
-            <a href="#">
-              <img src="../assets/images/apple.jpg" alt="">
-            </a>
+            <div>
+              <a href="#"><img src="../assets/images/main/main_8.jpg" alt=""></a>
+            </div>
           </li>
           <li>
-            <a href="#">
-              <img src="../assets/images/ogin.jpg" alt="">
-            </a>
+            <div>
+              <a href="#"><img src="../assets/images/main/main_9.jpg" alt=""></a>
+            </div>
           </li>
           <li>
-            <a href="#">
-              <img src="../assets/images/strawberries.jpg" alt="">
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="../assets/images/tomatoe.jpg" alt="">
-            </a>
+            <div>
+              <a href="#"><img src="../assets/images/main/main_10.jpg" alt=""></a>
+            </div>
           </li>
         </ul>
         <button type="button" name="button">food more</button>
@@ -251,21 +236,6 @@
           <img src="../assets/images/right-arrow.png" alt="">
         </button>
         <div class="r_contents">
-          <!-- <ul>
-            <li>
-              <a href="#"><img src="../assets/images/recomment.jpg" alt=""></a>
-            </li>
-            <li>
-              <a href="#">서울의 이색쇼핑</a>
-            </li>
-            <li>
-              <p>서울에는 널리 알려진 신사동 가로수길, 홍대 등 핫 플레이스외에도 쇼핑을 즐길 수 있는 곳이 많다.
-              <p>을지로거리부터 동대문, 서울풍물시장까지 이색 쇼핑을 즐길 수 있는 서울 내 대표적은 스팟 3곳을 소개한다.</p>
-            </li>
-            <li>
-              <p>#타일 #도기 #조명 #방산시장 #가구 #동대문 #신설동 #을지로3가 #DDP #을지로4가 #골동품</p>
-            </li>
-          </ul> -->
           <div class="r_img">
             <a href="#"><img src="../assets/images/recomment.jpg" alt=""></a>
             <div class="content_write">

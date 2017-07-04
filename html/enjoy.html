@@ -5,33 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="../assets/css/style.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <title>enjoy</title>
-  <script type="text/javascript">
-  interval = 100; //속도조절
-
-  if(document.getElementById) {
-    t = document.getElementById("enjoy_1");
-    if(t.innerHTML) {
-      typingBuffer = ""; // buffer prevents some browsers stripping spaces
-      it = 0;
-      mytext = t.innerHTML;
-      t.innerHTML = "";
-      typeit();
-    }
-  }
-
-  function typeit() {
-    mytext = mytext.replace(/<([^<])*>/, "");     // Strip HTML from text
-    if(it < mytext.length) {
-      typingBuffer += mytext.charAt(it);
-      t.innerHTML = typingBuffer;
-      it++;
-      setTimeout("typeit()", interval);
-    }
-  }
-
-  </script>
 </head>
 <body>
   <div class="wrap">
@@ -86,7 +60,7 @@
     </div>
     <div class="enjoy_3">
       <div class="title">
-        <h2>season</h2>
+        <h2>festival &#38; event</h2>
         <span></span>
       </div>
       <div class="slide">
