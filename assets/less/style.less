@@ -215,21 +215,45 @@
       ul{
         // width: 100%;
         font-size: 0;
-        border: 1px #00f solid;
+        outline: 1px #00f solid;
         width: 1250px;
         margin: 0 auto;
         li{
           font-size: 11px;
           display: inline-block;
-          position: relative;
+          // position: relative;
           // display: block;
           // outline: 1px #000 solid;
-          a{
-            img{
-              height: 250px;
+          outline: 1px #000 solid;
+          div{
+            position: relative;
+            // z-index: 1;
+            a{
+              img{
+                width: 250px;
+                height: 250px;
+                // 흑백으로만들기
+                -webkit-filter: grayscale(80%);
+              }
+            }
+            .hover{
+              position: absolute;
+              z-index: 2;
+              // background-color: #84cfe9;
+              background-color: rgba(132, 207, 233, 0.5);
               width: 250px;
-              // 흑백으로만들기
-              -webkit-filter: grayscale(80%);
+              height: 250px;
+              outline: 1px #000 solid;
+              display: none;
+              text-align: center;
+              img{
+                width: 45px;
+                height: 45px;
+                // display: block;
+                // margin: 0 auto;
+                position: relative;
+                top: 41%;
+              }
             }
           }
         }
