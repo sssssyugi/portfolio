@@ -92,18 +92,21 @@
   </script>
   <script type="text/javascript">
     $(function() {
-      $(".section_2 .food_img .img").hover(
+      $(".section_2 .food_img li>div").hover(
         function(){
           event.preventDefault();
-        console.log('dddd');
+        var hv = $(this).addClass("on-hover");
+        if(hv.mouseenter()){
+          console.log('dddd');
+
+          console.log(hv);
+        }
         $(".hover").css("display","block");
       },function() {
         event.preventDefault();
         console.log('zzzzz');
         $(".hover").css("display","none");
       });
-
-
     });
   </script>
 </head>
