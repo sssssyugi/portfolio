@@ -86,27 +86,44 @@
    window.onload = function(){
    	do_type();
    };
-
-
-
   </script>
   <script type="text/javascript">
     $(function() {
-      $(".section_2 .food_img li>div").hover(
-        function(){
-          event.preventDefault();
-        var hv = $(this).addClass("on-hover");
-        if(hv.mouseenter()){
-          console.log('dddd');
-
-          console.log(hv);
-        }
-        $(".hover").css("display","block");
-      },function() {
-        event.preventDefault();
-        console.log('zzzzz');
-        $(".hover").css("display","none");
+    // section_1
+    var section_1 = $(".section_1 .contents li");
+      section_1.mouseenter(function() {
+        $(this).css("background-color","rgba(246, 246, 246, 0.5)");
+        var text = $(this).find("a");
+        // console.log("dsdasaads");
+        text.css("font-weight","bold");
+      }).mouseleave(function() {
+        $(this).css("background-color","white");
+        var text = $(this).find("a");
+        // console.log("dsdasaads");
+        text.css("font-weight","lighter");
       });
+      section_1.find("img").hover(function() {
+        $(this).addClass('transition');
+      }, function() {
+         $(this).removeClass('transition');
+      })
+
+    // section_2
+      // 일단 영역선택하고 하버하게 만들거임
+      $(".section_2 .food_img li div").mouseenter(function() {
+        var hv = $(this).find(".hover");
+        // console.log("d");
+        hv.css("display","block");
+      }).mouseleave(function() {
+        // console.log("z");
+        var hv = $(this).find(".hover");
+        hv.hide();
+      });
+
+    // section_3
+
+
+
     });
   </script>
 </head>
@@ -151,7 +168,7 @@
       <div class="contents">
         <ul>
           <li>
-            <a href="#"><img src="../assets/images/festival.png" alt=""><br>festival</a>
+            <a href="#"><img class="zoomTarget" data-targetsize="0.45" data-duration="300" src="../assets/images/festival.png" alt=""><br>festival</a>
           </li>
           <li>
             <a href="#"><img src="../assets/images/shopping.png" alt=""><br>enjoy</a>
