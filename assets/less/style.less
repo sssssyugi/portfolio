@@ -340,28 +340,47 @@
         // 배경색에만 투명함을 입히려면 rgba써야댐
         background-color: rgba(19, 169, 220, 1);
         // background-color: #13a9dc;
-        .r_img{
-          // z-index: 10;
-          img{
-            width: 272px;
-            height: 194px;
-            padding: 30px 17px;
-            opacity: 0.8;
-            border: 1px #000 solid;
-          }
-          .content_write{
-            float: right;
-            margin: 35px 75px 26px 0;
-            color: #fff;
-            h3{
-              font-size: 16px;
-              margin-bottom: 48px;
-            }
-            p{
-              font-size: 11px;
-              &:last-child{
-                margin-top: 50px;
+        position: relative;
+        ul{
+          font-size: 0;
+          li{
+            font-size: 11px;
+            display: inline-block;
+            position: absolute;
+            display: none;
+            .r_img{
+              // z-index: 10;
+              img{
+                width: 272px;
+                height: 194px;
+                padding: 30px 17px;
+                opacity: 0.8;
+                border: 1px #000 solid;
               }
+              .content_write{
+                float: right;
+                margin: 35px 75px 26px 0;
+                color: #fff;
+                h3{
+                  font-size: 16px;
+                  margin-bottom: 48px;
+                }
+                p{
+                  font-size: 11px;
+                  &:last-child{
+                    margin-top: 50px;
+                  }
+                }
+              }
+            }
+            &:first-child{
+              display: block;
+            }
+            &:nth-child(2){
+              background-color: #000;
+            }
+            &:nth-child(3){
+              background-color: #fff;
             }
           }
         }

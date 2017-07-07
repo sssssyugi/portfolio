@@ -121,7 +121,16 @@
       });
 
     // section_3
+    var slide = $(".section_3 .recommend .r_contents li");
+    var idx = 0;
+    var width = $(".section_3 .recommend .r_contents").width();
 
+    $(".next").click(function() {
+      console.log("zdsfzsdf");
+    });
+
+
+    // top animation
 
 
     });
@@ -297,22 +306,48 @@
         <span></span>
       </div>
       <div class="recommend">
-        <button type="button" name="button">
+        <button class="prev" type="button" name="button">
           <img src="../assets/images/left-arrow.png" alt="">
         </button>
-        <button type="button" name="button">
+        <button class="next" type="button" name="button">
           <img src="../assets/images/right-arrow.png" alt="">
         </button>
         <div class="r_contents">
-          <div class="r_img">
-            <a href="#"><img src="../assets/images/recomment.jpg" alt=""></a>
-            <div class="content_write">
-              <h3>서울의 이색쇼핑</h3>
-              <p>서울에는 널리 알려진 신사동 가로수길, 홍대 등 핫 플레이스외에도 쇼핑을 즐길 수 있는 곳이 많다.</br>
-  을지로거리부터 동대문, 서울풍물시장까지 이색 쇼핑을 즐길 수 있는 서울 내 대표적은 스팟 3곳을 소개한다.</p>
-              <p>#타일 #도기 #조명 #방산시장 #가구 #동대문 #신설동 #을지로3가 #DDP #을지로4가 #골동품</p>
-            </div>
-          </div>
+          <ul>
+            <li class="on">
+              <div class="r_img">
+                <a href="#"><img src="../assets/images/recomment.jpg" alt=""></a>
+                <div class="content_write">
+                  <h3>서울의 이색쇼핑</h3>
+                  <p>서울에는 널리 알려진 신사동 가로수길, 홍대 등 핫 플레이스외에도 쇼핑을 즐길 수 있는 곳이 많다.</br>
+      을지로거리부터 동대문, 서울풍물시장까지 이색 쇼핑을 즐길 수 있는 서울 내 대표적은 스팟 3곳을 소개한다.</p>
+                  <p>#타일 #도기 #조명 #방산시장 #가구 #동대문 #신설동 #을지로3가 #DDP #을지로4가 #골동품</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="r_img">
+                <a href="#"><img src="../assets/images/recomment.jpg" alt=""></a>
+                <div class="content_write">
+                  <h3>대구 이색쇼핑</h3>
+                  <p>서울에는 널리 알려진 신사동 가로수길, 홍대 등 핫 플레이스외에도 쇼핑을 즐길 수 있는 곳이 많다.</br>
+      을지로거리부터 동대문, 서울풍물시장까지 이색 쇼핑을 즐길 수 있는 서울 내 대표적은 스팟 3곳을 소개한다.</p>
+                  <p>#타일 #도기 #조명 #방산시장 #가구 #동대문 #신설동 #을지로3가 #DDP #을지로4가 #골동품</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="r_img">
+                <a href="#"><img src="../assets/images/recomment.jpg" alt=""></a>
+                <div class="content_write">
+                  <h3>부산 이색쇼핑</h3>
+                  <p>서울에는 널리 알려진 신사동 가로수길, 홍대 등 핫 플레이스외에도 쇼핑을 즐길 수 있는 곳이 많다.</br>
+      을지로거리부터 동대문, 서울풍물시장까지 이색 쇼핑을 즐길 수 있는 서울 내 대표적은 스팟 3곳을 소개한다.</p>
+                  <p>#타일 #도기 #조명 #방산시장 #가구 #동대문 #신설동 #을지로3가 #DDP #을지로4가 #골동품</p>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div><!-- r_contents end -->
       </div><!-- recommend end -->
     </div><!-- section_3 end -->
@@ -343,6 +378,10 @@
       </ul>
     </div><!-- footer end -->
 
+    <!-- 마지막에 -->
+    <!-- <div class="wing">
+    	<img src="../assets/images/upwards-arrow.png" alt="">
+    </div> -->
   </div><!-- wrap end -->
 </body>
 </html>
