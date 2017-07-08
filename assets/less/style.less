@@ -286,7 +286,7 @@
     } // food_img end
   } // section_2 end
   .section_3{
-    height: 500px;
+    height: 600px;
     outline: 1px #000 solid;
     padding-top: 90px;
     // background-color: #13a9dc;
@@ -311,121 +311,85 @@
         transform:translate(-50%, -50%);
       }
     } // sec_title end
-    .recommend{
-      position: relative;
-      button{
+  .topten {
+    position:relative;
+    // border:1px #F00 solid;
+    width:1000px; height:300px;
+    margin:0 auto;
+  button{
+    position: absolute;
+    top: 40%;
+    outline: 0;
+    border: 0;
+    background-color: rgba(255 , 255, 255 , 0);
+    img{
+      width: 35px;
+      height: 35px;
+    }
+      &:first-child{
+        left: -20%;
+      }
+    }
+    &:last-child button{
+        right: -20%;
+    }
+  ul{
+    width:1000px; height:300px;
+    overflow: hidden;
+    position: relative;
+    font-size: 0;
+    background-color: #f6f6f6;
+    li{
+      display: inline-block;
+      display: none;
+      &:first-child{
+        display: block;
+      }
+      .sld{
+        // display: none;
         position: absolute;
-        top: 40%;
-        outline: 0;
-        border: 0;
-        background-color: rgba(255 , 255, 255 , 0);
-        img{
-          width: 35px;
-          height: 35px;
-        }
-        &:first-child{
-          left: 10%;
-          // right: 80%;
-        }
-      }
-      &:last-child button{
-        float: right;
-        right: 10%;
-      }
-      .r_contents{
-        outline: 1px #000 solid;
         width: 1000px;
-        height: 254px;
-        margin: 0 auto;
-        // 배경색에만 투명함을 입히려면 rgba써야댐
-        background-color: rgba(19, 169, 220, 1);
-        // background-color: #13a9dc;
-        position: relative;
-        ul{
-          font-size: 0;
-          li{
-            font-size: 11px;
-            display: inline-block;
+        height: 100%;
+        top: 0;
+        .img{
+          img{
             position: absolute;
-            display: none;
-            .r_img{
-              // z-index: 10;
-              img{
-                width: 272px;
-                height: 194px;
-                padding: 30px 17px;
-                opacity: 0.8;
-                border: 1px #000 solid;
-              }
-              .content_write{
-                float: right;
-                margin: 35px 75px 26px 0;
-                color: #fff;
-                h3{
-                  font-size: 16px;
-                  margin-bottom: 48px;
-                }
-                p{
-                  font-size: 11px;
-                  &:last-child{
-                    margin-top: 50px;
-                  }
-                }
-              }
-            }
-            &:first-child{
-              display: block;
-            }
-            &:nth-child(2){
-              background-color: #000;
-            }
-            &:nth-child(3){
-              background-color: #fff;
-            }
+            width: 600px;
+            height: 100%;
           }
         }
-        // ul{
-        //   font-size: 0;
-        //   li{
-        //     outline: 1px #000 solid;
-        //     float: left;
-        //     &:first-child{
-        //       width: 306px;
-        //       height: 254px;
-        //     }
-        //     &:last-child{
-        //       // float: left;
-        //       // padding-left: 75px;
-        //       // margin: 35px 0 44px 75px;
-        //       margin: 35px 0 44px 75px;
-        //     }
-        //     a{
-        //       font-size: 16px;
-        //       img{
-        //         width: 272px;
-        //         height: 194px;
-        //         padding: 30px 17px;
-        //         opacity: 0.5;
-        //       }
-        //     }
-        //     // &:first-child p{
-        //     //   margin-top: 36px;
-        //     // }
-        //     p{
-        //       font-size: 11px;
-        //       // &:first-child{
-        //       //   margin-top: 36px;
-        //       // }
-        //       &:last-child{
-        //         color: #00f;
-        //         margin-top: 50px;
-        //       }
-        //     }
-        //   }
-        // }
-
-      } // r_contents end
-    } // recommend end
+        .txt{
+          background-color: rgba(0, 0, 0, 0.2);
+          padding: 15px;
+          position: absolute;
+          font-size: 14px;
+          left: 380px;
+          top: 60px;
+          h3{
+            font-weight: 700;
+            font-size: 20px;
+            color: #fff;
+          }
+          p{
+            margin-top: 15px;
+            line-height: 25px;
+            color: #fff;
+          }
+        }
+        .add_btn{
+          position: absolute;
+          right: 10px;
+          // margin-right:1%;
+          bottom: 2%;
+          img{
+            width: 35px;
+            height: 35px;
+          }
+        }
+      }
+    }
+  }
+} // topten end
   } //section_3 end
   .section_4{
     height: 400px;

@@ -121,13 +121,60 @@
       });
 
     // section_3
-    var slide = $(".section_3 .recommend .r_contents li");
-    var idx = 0;
-    var width = $(".section_3 .recommend .r_contents").width();
+    var slide = $(".topten li");
+      var idx = 0;
+      var width = $(".topten").width();
+      console.log(width);
+      $(".first").css('display','block');
 
-    $(".next").click(function() {
-      console.log("zdsfzsdf");
-    });
+      $(".next").click(function() {
+        console.log("눌려짐?");
+        slide.removeClass('sld').eq(idx).find('div').animate({
+          // 'display':'block',
+          'right':width
+        }).parent().addClass('sld').next().find('div').css({
+          'display':'block',
+          'right':-width
+        }).animate({
+          'right':0
+        });
+
+        idx++
+
+        if(idx==slide.length){
+          idx=0;
+          slide.eq(idx).find('sld').css({
+            'right':width
+          }).stop().animate({
+            'right':0
+          })
+        }
+      });
+      $('.prev').click(function(){
+        // eq에 idx번째 자식요소인 div요소를 찾아서 움직이자
+        slide.removeClass('on').eq(idx).find('div').animate({
+          'right':width // 반대로 움직여야되니깐 -빼기
+          //  부모로 한칸올라와서 다음 div
+        }).parent().addClass('on').prev().find('div').css({
+          'display':'block',  // 눈에 보이게 하고
+          'right':-width //왼쪽으로 오게함 0점지점으로
+        }).animate({
+          'right':0
+        })
+        // 빼기 이전값
+        idx--
+        //뺀값
+        // if(idx==$('.slide li').length){
+        if(idx < 0){
+          idx=0;
+          slide.eq(idx).find('div').css({
+            'right':-width,
+            'display':'block'
+          }).stop().animate({
+            'right':0
+          })
+        }
+      });
 
 
     // top animation
@@ -302,54 +349,127 @@
 
     <div class="section_3">
       <div class="sec_title">
-        <h2>recommend!</h2>
+        <h2>Top 10</h2>
         <span></span>
       </div>
-      <div class="recommend">
-        <button class="prev" type="button" name="button">
-          <img src="../assets/images/left-arrow.png" alt="">
-        </button>
-        <button class="next" type="button" name="button">
-          <img src="../assets/images/right-arrow.png" alt="">
-        </button>
-        <div class="r_contents">
-          <ul>
-            <li class="on">
-              <div class="r_img">
-                <a href="#"><img src="../assets/images/recomment.jpg" alt=""></a>
-                <div class="content_write">
-                  <h3>서울의 이색쇼핑</h3>
-                  <p>서울에는 널리 알려진 신사동 가로수길, 홍대 등 핫 플레이스외에도 쇼핑을 즐길 수 있는 곳이 많다.</br>
-      을지로거리부터 동대문, 서울풍물시장까지 이색 쇼핑을 즐길 수 있는 서울 내 대표적은 스팟 3곳을 소개한다.</p>
-                  <p>#타일 #도기 #조명 #방산시장 #가구 #동대문 #신설동 #을지로3가 #DDP #을지로4가 #골동품</p>
-                </div>
+      <div class="topten">
+        <button type="button" name="button"><img class="prev" src="../assets/images/left-arrow.png" alt=""></button>
+        <button type="button" name="button"><img class="next" src="../assets/images/right-arrow.png" alt=""></button>
+        <ul>
+          <li class="first">
+            <div class="sld">
+              <div class="img"><img src="../assets/images/main/TopTen_1.png" alt=""></div>
+              <div class="txt">
+                <h3>Top 10 서울관광명소</h3>
+                <p>전통과 현대가 공존하는 도시 서울. 역사 유적, 조선시대 궁궐부터 최신 유행의 쇼핑 타운과<br>
+                  랜드마크까지 화려한 도시 라이프와 고즈넉한 전통의 멋을 취향에 따라 즐길 수 있다.<br>
+                  서울에 왔다면 꼭 가봐야하는 10곳의 여행지를 소개한다.</p>
               </div>
-            </li>
-            <li>
-              <div class="r_img">
-                <a href="#"><img src="../assets/images/recomment.jpg" alt=""></a>
-                <div class="content_write">
-                  <h3>대구 이색쇼핑</h3>
-                  <p>서울에는 널리 알려진 신사동 가로수길, 홍대 등 핫 플레이스외에도 쇼핑을 즐길 수 있는 곳이 많다.</br>
-      을지로거리부터 동대문, 서울풍물시장까지 이색 쇼핑을 즐길 수 있는 서울 내 대표적은 스팟 3곳을 소개한다.</p>
-                  <p>#타일 #도기 #조명 #방산시장 #가구 #동대문 #신설동 #을지로3가 #DDP #을지로4가 #골동품</p>
-                </div>
+              <div class="add_btn"><a href="#"><img src="../assets/images/main/add.png" alt=""></a></div>
+            </div>
+          </li>
+          <li>
+            <div class="sld">
+              <div class="img"><img src="../assets/images/main/TopTen_2.png" alt=""></div>
+              <div class="txt">
+                <h3>동대문 쇼핑타운</h3>
+                <p>이곳에 우리에게 필요한 모든 것이 있다! 대규모 쇼핑타운의 으뜸, 동대문 쇼핑타운</p>
               </div>
-            </li>
-            <li>
-              <div class="r_img">
-                <a href="#"><img src="../assets/images/recomment.jpg" alt=""></a>
-                <div class="content_write">
-                  <h3>부산 이색쇼핑</h3>
-                  <p>서울에는 널리 알려진 신사동 가로수길, 홍대 등 핫 플레이스외에도 쇼핑을 즐길 수 있는 곳이 많다.</br>
-      을지로거리부터 동대문, 서울풍물시장까지 이색 쇼핑을 즐길 수 있는 서울 내 대표적은 스팟 3곳을 소개한다.</p>
-                  <p>#타일 #도기 #조명 #방산시장 #가구 #동대문 #신설동 #을지로3가 #DDP #을지로4가 #골동품</p>
-                </div>
+              <div class="add_btn"><a href="#"><img src="../assets/images/main/add.png" alt=""></a></div>
+            </div>
+          </li>
+          <li>
+            <div class="sld">
+              <div class="img"><img src="../assets/images/main/TopTen_3.png" alt=""></div>
+              <div class="txt">
+                <h3>명동</h3>
+                <p>외국인 관광객들도 즐겨찾는 그 곳! 패션, 뷰티, 아울렛이 모여 있는 쇼핑의 메카</p>
               </div>
-            </li>
-          </ul>
-        </div><!-- r_contents end -->
-      </div><!-- recommend end -->
+              <div class="add_btn"><a href="#"><img src="../assets/images/main/add.png" alt=""></a></div>
+            </div>
+          </li>
+          <li>
+            <div class="sld">
+              <div class="img"><img src="../assets/images/main/TopTen_4.png" alt=""></div>
+              <div class="txt">
+                <h3>경복궁</h3>
+                <p>5대 궁궐 중 첫번째로 지어진 조선 시대 최고의 궁</p>
+              </div>
+              <div class="add_btn"><a href="#"><img src="../assets/images/main/add.png" alt=""></a></div>
+            </div>
+          </li>
+          <li>
+            <div class="sld">
+              <div class="img"><img src="../assets/images/main/TopTen_5.png" alt=""></div>
+              <div class="txt">
+                <h3>N서울타워</h3>
+                <p>남산의 맑은 공기 속에서 서울의 풍경을 한 눈에 즐길 수 있는 랜드마크</p>
+              </div>
+              <div class="add_btn"><a href="#"><img src="../assets/images/main/add.png" alt=""></a></div>
+            </div>
+          </li>
+          <li>
+            <div class="sld">
+              <div class="img"><img src="../assets/images/main/TopTen_6.png" alt=""></div>
+              <div class="txt">
+                <h3>인사동길</h3>
+                <p>옛 정취가 느껴지는 거리를 따라 전통 기념품점과 맛집이 즐비한 곳</p>
+              </div>
+              <div class="add_btn"><a href="#"><img src="../assets/images/main/add.png" alt=""></a></div>
+            </div>
+          </li>
+          <li>
+            <div class="sld">
+              <div class="img"><img src="../assets/images/main/TopTen_7.png" alt=""></div>
+              <div class="txt">
+                <h3>남대문시장</h3>
+                <p>10,000개 이상의 점포가 모여 있는 국내 최대 규모의 재래시장</p>
+              </div>
+              <div class="add_btn"><a href="#"><img src="../assets/images/main/add.png" alt=""></a></div>
+            </div>
+          </li>
+          <li>
+            <div class="sld">
+              <div class="img"><img src="../assets/images/main/TopTen_8.png" alt=""></div>
+              <div class="txt">
+                <h3>서울 한양도성</h3>
+                <p>세계의 도성 중 가장 오랫동안 도성 기능을 수행한 유적</p>
+              </div>
+              <div class="add_btn"><a href="#"><img src="../assets/images/main/add.png" alt=""></a></div>
+            </div>
+          </li>
+          <li>
+            <div class="sld">
+              <div class="img"><img src="../assets/images/main/TopTen_9.png" alt=""></div>
+              <div class="txt">
+                <h3>동대문디자인플라자 (DDP)</h3>
+                <p>물 흐르듯 자연스럽게 이어지는 곡선형 외관이 특징인 복합문화공간</p>
+              </div>
+              <div class="add_btn"><a href="#"><img src="../assets/images/main/add.png" alt=""></a></div>
+            </div>
+          </li>
+          <li>
+            <div class="sld">
+              <div class="img"><img src="../assets/images/main/TopTen_10.png" alt=""></div>
+              <div class="txt">
+                <h3>홍대</h3>
+                <p>연중 인디 음악 공연과 예술 축제가 끊이지 않는 젊은이들의 핫 플레이스</p>
+              </div>
+              <div class="add_btn"><a href="#"><img src="../assets/images/main/add.png" alt=""></a></div>
+            </div>
+          </li>
+          <li>
+            <div class="sld">
+              <div class="img"><img src="../assets/images/main/TopTen_11.png" alt=""></div>
+              <div class="txt">
+                <h3>청계천</h3>
+                <p>서울 도심을 가로질러 흐르는 시민들의 쉼터</p>
+              </div>
+              <div class="add_btn"><a href="#"><img src="../assets/images/main/add.png" alt=""></a></div>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div><!-- section_3 end -->
 
     <div class="section_4">

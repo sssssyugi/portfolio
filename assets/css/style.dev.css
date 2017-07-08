@@ -293,7 +293,7 @@ button {
 }
 /* line 288, assets\less\style.less */
 .wrap .section_3 {
-  height: 500px;
+  height: 600px;
   outline: 1px #000 solid;
   padding-top: 90px;
 }
@@ -319,137 +319,143 @@ button {
   transform: translate(-50%, -50%);
 }
 /* line 314, assets\less\style.less */
-.wrap .section_3 .recommend {
+.wrap .section_3 .topten {
   position: relative;
+  width: 1000px;
+  height: 300px;
+  margin: 0 auto;
 }
-/* line 316, assets\less\style.less */
-.wrap .section_3 .recommend button {
+/* line 319, assets\less\style.less */
+.wrap .section_3 .topten button {
   position: absolute;
   top: 40%;
   outline: 0;
   border: 0;
   background-color: rgba(255, 255, 255, 0);
 }
-/* line 322, assets\less\style.less */
-.wrap .section_3 .recommend button img {
+/* line 325, assets\less\style.less */
+.wrap .section_3 .topten button img {
   width: 35px;
   height: 35px;
 }
-/* line 326, assets\less\style.less */
-.wrap .section_3 .recommend button:first-child {
-  left: 10%;
+/* line 329, assets\less\style.less */
+.wrap .section_3 .topten button:first-child {
+  left: -20%;
 }
-/* line 331, assets\less\style.less */
-.wrap .section_3 .recommend:last-child button {
-  float: right;
-  right: 10%;
+/* line 333, assets\less\style.less */
+.wrap .section_3 .topten:last-child button {
+  right: -20%;
 }
-/* line 335, assets\less\style.less */
-.wrap .section_3 .recommend .r_contents {
-  outline: 1px #000 solid;
+/* line 336, assets\less\style.less */
+.wrap .section_3 .topten ul {
   width: 1000px;
-  height: 254px;
-  margin: 0 auto;
-  background-color: #13a9dc;
+  height: 300px;
+  overflow: hidden;
   position: relative;
-}
-/* line 344, assets\less\style.less */
-.wrap .section_3 .recommend .r_contents ul {
   font-size: 0;
+  background-color: #f6f6f6;
 }
-/* line 346, assets\less\style.less */
-.wrap .section_3 .recommend .r_contents ul li {
-  font-size: 11px;
+/* line 342, assets\less\style.less */
+.wrap .section_3 .topten ul li {
   display: inline-block;
-  position: absolute;
   display: none;
 }
-/* line 353, assets\less\style.less */
-.wrap .section_3 .recommend .r_contents ul li .r_img img {
-  width: 272px;
-  height: 194px;
-  padding: 30px 17px;
-  opacity: 0.8;
-  border: 1px #000 solid;
-}
-/* line 360, assets\less\style.less */
-.wrap .section_3 .recommend .r_contents ul li .r_img .content_write {
-  float: right;
-  margin: 35px 75px 26px 0;
-  color: #fff;
-}
-/* line 364, assets\less\style.less */
-.wrap .section_3 .recommend .r_contents ul li .r_img .content_write h3 {
-  font-size: 16px;
-  margin-bottom: 48px;
-}
-/* line 368, assets\less\style.less */
-.wrap .section_3 .recommend .r_contents ul li .r_img .content_write p {
-  font-size: 11px;
-}
-/* line 370, assets\less\style.less */
-.wrap .section_3 .recommend .r_contents ul li .r_img .content_write p:last-child {
-  margin-top: 50px;
-}
-/* line 376, assets\less\style.less */
-.wrap .section_3 .recommend .r_contents ul li:first-child {
+/* line 345, assets\less\style.less */
+.wrap .section_3 .topten ul li:first-child {
   display: block;
 }
+/* line 348, assets\less\style.less */
+.wrap .section_3 .topten ul li .sld {
+  position: absolute;
+  width: 1000px;
+  height: 100%;
+  top: 0;
+}
+/* line 355, assets\less\style.less */
+.wrap .section_3 .topten ul li .sld .img img {
+  position: absolute;
+  width: 600px;
+  height: 100%;
+}
+/* line 361, assets\less\style.less */
+.wrap .section_3 .topten ul li .sld .txt {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  position: absolute;
+  font-size: 14px;
+  left: 380px;
+  top: 60px;
+}
+/* line 368, assets\less\style.less */
+.wrap .section_3 .topten ul li .sld .txt h3 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+/* line 373, assets\less\style.less */
+.wrap .section_3 .topten ul li .sld .txt p {
+  margin-top: 15px;
+  line-height: 25px;
+  color: #fff;
+}
 /* line 379, assets\less\style.less */
-.wrap .section_3 .recommend .r_contents ul li:nth-child(2) {
-  background-color: #000;
+.wrap .section_3 .topten ul li .sld .add_btn {
+  position: absolute;
+  right: 10px;
+  bottom: 2%;
 }
-/* line 382, assets\less\style.less */
-.wrap .section_3 .recommend .r_contents ul li:nth-child(3) {
-  background-color: #fff;
+/* line 384, assets\less\style.less */
+.wrap .section_3 .topten ul li .sld .add_btn img {
+  width: 35px;
+  height: 35px;
 }
-/* line 430, assets\less\style.less */
+/* line 394, assets\less\style.less */
 .wrap .section_4 {
   height: 400px;
   outline: 1px #000 solid;
 }
-/* line 435, assets\less\style.less */
+/* line 399, assets\less\style.less */
 .wrap .section_4 #map_canvas {
   width: 100%;
   height: 100%;
 }
-/* line 440, assets\less\style.less */
+/* line 404, assets\less\style.less */
 .wrap .footer {
   height: 55px;
   outline: 1px #00f solid;
   background-color: #000;
 }
-/* line 444, assets\less\style.less */
+/* line 408, assets\less\style.less */
 .wrap .footer ul {
   outline: 1px #f00 solid;
   text-align: right;
   line-height: 55px;
 }
-/* line 449, assets\less\style.less */
+/* line 413, assets\less\style.less */
 .wrap .footer ul li {
   outline: 1px #f0f solid;
   padding-right: 25px;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 455, assets\less\style.less */
+/* line 419, assets\less\style.less */
 .wrap .footer ul li a img {
   height: 17px;
   width: 17px;
   margin-top: 18px;
 }
-/* line 461, assets\less\style.less */
+/* line 425, assets\less\style.less */
 .wrap .footer ul li button {
   border: 0;
   background-color: #13a9dc;
 }
-/* line 464, assets\less\style.less */
+/* line 428, assets\less\style.less */
 .wrap .footer ul li button img {
   height: 10px;
   width: 13px;
   padding-bottom: 5px;
 }
-/* line 470, assets\less\style.less */
+/* line 434, assets\less\style.less */
 .wrap .footer ul li:last-child {
   margin-left: 50px;
   margin-right: 135px;
