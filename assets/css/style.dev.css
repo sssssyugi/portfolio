@@ -1264,11 +1264,11 @@ button {
 /* line 66, assets\less\traffic.less */
 .wrap .traffic_1 {
   outline: 1px #000 solid;
-  height: 500px;
+  height: 580px;
 }
 /* line 69, assets\less\traffic.less */
 .wrap .traffic_1 .title {
-  height: 200px;
+  height: 270px;
   outline: 1px #000 solid;
   padding-top: 90px;
   position: relative;
@@ -1285,7 +1285,7 @@ button {
   height: 2px;
   background-color: #000;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -1314,7 +1314,7 @@ button {
   border: 1px #000 solid;
   padding: 10px;
   border-radius: 10%;
-  margin-top: 2.5%;
+  margin-top: 2%;
 }
 /* line 111, assets\less\traffic.less */
 .wrap .traffic_1 .title .cate ul li:nth-child(2) {
@@ -1326,7 +1326,7 @@ button {
   outline: 1px #000 solid;
   width: 70%;
   margin: 0 auto;
-  height: 210px;
+  height: 220px;
   background-color: #f6f6f6;
 }
 /* line 125, assets\less\traffic.less */
@@ -1337,7 +1337,7 @@ button {
 .wrap .traffic_1 .cate_txt .bus .bus_img {
   outline: 1px #000 solid;
   width: 400px;
-  height: 210px;
+  height: 220px;
 }
 /* line 131, assets\less\traffic.less */
 .wrap .traffic_1 .cate_txt .bus .bus_img ul {
@@ -1348,40 +1348,45 @@ button {
   font-size: 13px;
   border: 1px ;
 }
-/* line 139, assets\less\traffic.less */
+/* line 136, assets\less\traffic.less */
+.wrap .traffic_1 .cate_txt .bus .bus_img ul li img {
+  fill: red;
+}
+/* line 142, assets\less\traffic.less */
 .wrap .traffic_1 .cate_txt .bus .bus_txt {
+  float: right;
   outline: 1px #00f solid;
   width: 600px;
-  height: 210px;
+  height: 220px;
   margin-left: 18px;
 }
-/* line 145, assets\less\traffic.less */
+/* line 148, assets\less\traffic.less */
 .wrap .traffic_1 .cate_txt .bus .bus_txt ul {
   font-size: 0;
 }
-/* line 147, assets\less\traffic.less */
+/* line 150, assets\less\traffic.less */
 .wrap .traffic_1 .cate_txt .bus .bus_txt ul li {
   font-size: 13px;
 }
-/* line 155, assets\less\traffic.less */
+/* line 158, assets\less\traffic.less */
 .wrap .traffic_2 {
   outline: 1px #000 solid;
   height: 500px;
 }
-/* line 158, assets\less\traffic.less */
+/* line 161, assets\less\traffic.less */
 .wrap .traffic_2 .title {
   height: 100px;
   outline: 1px #000 solid;
   padding-top: 90px;
   position: relative;
 }
-/* line 163, assets\less\traffic.less */
+/* line 166, assets\less\traffic.less */
 .wrap .traffic_2 .title h2 {
   text-align: center;
   text-transform: uppercase;
   font-size: 17px;
 }
-/* line 168, assets\less\traffic.less */
+/* line 171, assets\less\traffic.less */
 .wrap .traffic_2 .title span {
   width: 70px;
   height: 2px;
