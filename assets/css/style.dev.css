@@ -1324,69 +1324,71 @@ button {
 /* line 119, assets\less\traffic.less */
 .wrap .traffic_1 .cate_txt {
   outline: 1px #000 solid;
-  width: 70%;
+  width: 50%;
   margin: 0 auto;
   height: 220px;
   background-color: #f6f6f6;
 }
 /* line 125, assets\less\traffic.less */
 .wrap .traffic_1 .cate_txt .bus {
-  display: flex;
+  position: relative;
 }
-/* line 127, assets\less\traffic.less */
+/* line 128, assets\less\traffic.less */
 .wrap .traffic_1 .cate_txt .bus .bus_img {
+  position: absolute;
+  left: 0;
   outline: 1px #000 solid;
-  width: 400px;
+  width: 40%;
   height: 220px;
 }
-/* line 131, assets\less\traffic.less */
+/* line 134, assets\less\traffic.less */
 .wrap .traffic_1 .cate_txt .bus .bus_img ul {
   font-size: 0;
 }
-/* line 133, assets\less\traffic.less */
+/* line 136, assets\less\traffic.less */
 .wrap .traffic_1 .cate_txt .bus .bus_img ul li {
   font-size: 13px;
   border: 1px ;
 }
-/* line 136, assets\less\traffic.less */
+/* line 139, assets\less\traffic.less */
 .wrap .traffic_1 .cate_txt .bus .bus_img ul li img {
   fill: red;
 }
-/* line 142, assets\less\traffic.less */
+/* line 145, assets\less\traffic.less */
 .wrap .traffic_1 .cate_txt .bus .bus_txt {
-  float: right;
+  position: absolute;
+  right: 0;
   outline: 1px #00f solid;
-  width: 600px;
+  width: 60%;
   height: 220px;
-  margin-left: 18px;
 }
-/* line 148, assets\less\traffic.less */
+/* line 152, assets\less\traffic.less */
 .wrap .traffic_1 .cate_txt .bus .bus_txt ul {
   font-size: 0;
 }
-/* line 150, assets\less\traffic.less */
+/* line 154, assets\less\traffic.less */
 .wrap .traffic_1 .cate_txt .bus .bus_txt ul li {
   font-size: 13px;
 }
-/* line 158, assets\less\traffic.less */
+/* line 162, assets\less\traffic.less */
 .wrap .traffic_2 {
   outline: 1px #000 solid;
   height: 500px;
 }
-/* line 161, assets\less\traffic.less */
+/* line 165, assets\less\traffic.less */
 .wrap .traffic_2 .title {
   height: 100px;
   outline: 1px #000 solid;
   padding-top: 90px;
   position: relative;
 }
-/* line 166, assets\less\traffic.less */
+/* line 170, assets\less\traffic.less */
 .wrap .traffic_2 .title h2 {
   text-align: center;
   text-transform: uppercase;
   font-size: 17px;
 }
-/* line 171, assets\less\traffic.less */
+/* line 175, assets\less\traffic.less */
 .wrap .traffic_2 .title span {
   width: 70px;
   height: 2px;

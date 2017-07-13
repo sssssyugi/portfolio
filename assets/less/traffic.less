@@ -118,15 +118,18 @@
     } // title end
     .cate_txt{
       outline: 1px #000 solid;
-      width: 70%;
+      width: 50%;
       margin: 0 auto;
       height: 220px;
       background-color: #f6f6f6;
       .bus{
-        display: flex;
+        // display: flex;
+        position: relative;
         .bus_img{
+          position: absolute;
+          left: 0;
           outline: 1px #000 solid;
-          width: 400px;
+          width: 40%;
           height: 220px;
           ul{
             font-size: 0;
@@ -140,11 +143,12 @@
           }
         }
         .bus_txt{
-          float: right;
+          position: absolute;
+          right: 0;
           outline: 1px #00f solid;
-          width: 600px;
+          width: 60%;
           height: 220px;
-          margin-left: 18px;
+          // margin-left: 18px;
           ul{
             font-size: 0;
             li{
