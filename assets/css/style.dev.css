@@ -31,9 +31,16 @@ img,
 video {
   border: 0;
   vertical-align: top;
+  margin: 0;
+  padding: 0;
 }
 /* line 5, assets\less\common.less */
 button {
+  margin: 0;
+  padding: 0;
+}
+/* line 6, assets\less\common.less */
+p {
   margin: 0;
   padding: 0;
 }
@@ -1192,4 +1199,279 @@ button {
   margin-right: 135px;
   background-color: #13a9dc;
   padding: 0 15px;
+}
+/* line 1, assets\less\traffic.less */
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+/* line 4, assets\less\traffic.less */
+.wrap header {
+  position: relative;
+  height: 70px;
+}
+/* line 7, assets\less\traffic.less */
+.wrap header .gnb {
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  background-color: #323232;
+}
+/* line 15, assets\less\traffic.less */
+.wrap header .gnb img {
+  width: 100%;
+  height: 100%;
+}
+/* line 19, assets\less\traffic.less */
+.wrap header .gnb ul {
+  font-size: 0;
+  height: 100%;
+  width: 840px;
+  outline: 1px #fff solid;
+  margin: 0 auto;
+}
+/* line 26, assets\less\traffic.less */
+.wrap header .gnb ul li {
+  font-size: 11px;
+  float: left;
+  margin-right: 15px;
+}
+/* line 30, assets\less\traffic.less */
+.wrap header .gnb ul li a {
+  color: #fff;
+  padding: 10px 35px 10px 35px;
+}
+/* line 34, assets\less\traffic.less */
+.wrap header .gnb ul li a:hover {
+  background-color: #000;
+  border-radius: 5%;
+}
+/* line 45, assets\less\traffic.less */
+.wrap header .gnb ul li .on {
+  background-color: #000;
+  border-radius: 5%;
+  padding: 10px 35px 10px 35px;
+}
+/* line 50, assets\less\traffic.less */
+.wrap header .gnb ul li:last-child {
+  padding-left: 70px;
+}
+/* line 53, assets\less\traffic.less */
+.wrap header .gnb ul li button {
+  border: 0;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0);
+  width: 16px;
+  height: 16px;
+  transform: rotate(-14deg);
+  margin-top: 27px;
+}
+/* line 66, assets\less\traffic.less */
+.wrap .traffic_1 {
+  outline: 1px #000 solid;
+  height: 1500px;
+}
+/* line 69, assets\less\traffic.less */
+.wrap .traffic_1 .title {
+  height: 340px;
+  outline: 1px #000 solid;
+  padding-top: 90px;
+  position: relative;
+}
+/* line 74, assets\less\traffic.less */
+.wrap .traffic_1 .title h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+/* line 79, assets\less\traffic.less */
+.wrap .traffic_1 .title span {
+  width: 70px;
+  height: 2px;
+  background-color: #000;
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 91, assets\less\traffic.less */
+.wrap .traffic_1 .title p {
+  padding-top: 60px;
+  font-size: 11px;
+  width: 800px;
+  margin: 0 auto;
+  line-height: 27px;
+  text-align: center;
+}
+/* line 99, assets\less\traffic.less */
+.wrap .traffic_1 .title .cate {
+  text-align: center;
+}
+/* line 101, assets\less\traffic.less */
+.wrap .traffic_1 .title .cate ul {
+  font-size: 0;
+}
+/* line 103, assets\less\traffic.less */
+.wrap .traffic_1 .title .cate ul li {
+  font-size: 13px;
+  text-transform: uppercase;
+  display: inline-block;
+  border: 1px #000 solid;
+  padding: 10px;
+  border-radius: 10%;
+  margin-top: 1.5%;
+}
+/* line 111, assets\less\traffic.less */
+.wrap .traffic_1 .title .cate ul li:nth-child(2) {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+/* line 119, assets\less\traffic.less */
+.wrap .traffic_1 .cate_txt {
+  width: 60%;
+  margin: 0 auto;
+  height: 1070px;
+  font-size: 12px;
+  text-align: center;
+}
+/* line 127, assets\less\traffic.less */
+.wrap .traffic_1 .cate_txt p {
+  line-height: 30px;
+  padding-top: 2%;
+}
+/* line 149, assets\less\traffic.less */
+.wrap .traffic_1 .cate_txt table {
+  padding: 1%;
+  margin-top: 5%;
+  width: 100%;
+  border-top: 1px #c8c8c8 solid;
+  border-bottom: 1px #c8c8c8 solid;
+  font-size: 12px;
+}
+/* line 158, assets\less\traffic.less */
+.wrap .traffic_1 .cate_txt table tr th {
+  font-size: 13px;
+}
+/* line 161, assets\less\traffic.less */
+.wrap .traffic_1 .cate_txt table tr td {
+  padding: 1%;
+}
+/* line 166, assets\less\traffic.less */
+.wrap .traffic_1 .cate_txt .bus {
+  display: none;
+  height: inherit;
+}
+/* line 172, assets\less\traffic.less */
+.wrap .traffic_1 .cate_txt .subway {
+  display: block;
+  height: inherit;
+  text-align: center;
+}
+/* line 176, assets\less\traffic.less */
+.wrap .traffic_1 .cate_txt .subway img {
+  margin-top: 1.5%;
+  width: 100%;
+  height: 550px;
+}
+/* line 182, assets\less\traffic.less */
+.wrap .traffic_1 .cate_txt .taxi {
+  display: none;
+  height: inherit;
+}
+/* line 188, assets\less\traffic.less */
+.wrap .traffic_2 {
+  outline: 1px #000 solid;
+  height: 900px;
+}
+/* line 191, assets\less\traffic.less */
+.wrap .traffic_2 .title {
+  height: 200px;
+  outline: 1px #000 solid;
+  padding-top: 90px;
+  position: relative;
+}
+/* line 196, assets\less\traffic.less */
+.wrap .traffic_2 .title h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+/* line 201, assets\less\traffic.less */
+.wrap .traffic_2 .title span {
+  width: 70px;
+  height: 2px;
+  background-color: #000;
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 213, assets\less\traffic.less */
+.wrap .traffic_2 .title .cate {
+  text-align: center;
+}
+/* line 215, assets\less\traffic.less */
+.wrap .traffic_2 .title .cate ul {
+  font-size: 0;
+  width: 500px;
+  margin: 0 auto;
+}
+/* line 219, assets\less\traffic.less */
+.wrap .traffic_2 .title .cate ul li {
+  font-size: 13px;
+  text-transform: uppercase;
+  display: inline-block;
+  border: 1px #000 solid;
+  padding: 10px;
+  border-radius: 10%;
+  margin-top: 20%;
+}
+/* line 227, assets\less\traffic.less */
+.wrap .traffic_2 .title .cate ul li:nth-child(2) {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+/* line 235, assets\less\traffic.less */
+.wrap .traffic_2 .cate_txt {
+  width: 60%;
+  margin: 0 auto;
+  height: 610px;
+  font-size: 12px;
+  text-align: center;
+}
+/* line 243, assets\less\traffic.less */
+.wrap .traffic_2 .cate_txt p {
+  line-height: 30px;
+  padding-top: 2%;
+}
+/* line 264, assets\less\traffic.less */
+.wrap .traffic_2 .cate_txt p strong {
+  font-size: 13px;
+}
+/* line 268, assets\less\traffic.less */
+.wrap .traffic_2 .cate_txt table {
+  padding: 1%;
+  margin-top: 5%;
+  width: 100%;
+  border-top: 1px #c8c8c8 solid;
+  border-bottom: 1px #c8c8c8 solid;
+  font-size: 12px;
+}
+/* line 277, assets\less\traffic.less */
+.wrap .traffic_2 .cate_txt table tr th {
+  font-size: 13px;
+}
+/* line 280, assets\less\traffic.less */
+.wrap .traffic_2 .cate_txt table tr td {
+  padding: 1%;
+}
+/* line 285, assets\less\traffic.less */
+.wrap .traffic_2 .cate_txt .tmoeny {
+  display: block;
+}
+/* line 288, assets\less\traffic.less */
+.wrap .traffic_2 .cate_txt .mpass {
+  display: none;
 }
