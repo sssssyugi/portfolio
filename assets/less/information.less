@@ -1,0 +1,181 @@
+.wrap{
+  width: 100%;
+  height: 100%;
+  header{
+    position: relative;
+    height: 70px;
+    .gnb{
+      z-index: 100;
+      position: fixed;
+      width: 100%;
+      height: 70px;
+      line-height: 70px;
+      // background-color: rgba(0, 29, 62, 0.8);
+      background-color: #323232;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+      ul{
+        // padding-left: 60%;
+        font-size: 0;
+        height: 100%;
+        width: 840px;
+        outline: 1px #fff solid;
+        margin: 0 auto;
+        li{
+          font-size: 11px;
+          float: left;
+          margin-right: 15px;
+          a{
+            // display: none;
+            color: #fff;
+            padding: 10px 35px 10px 35px;
+            &:hover{
+              // display: block;
+              background-color: #FA5858;
+              border-radius: 5%;
+            }
+          }
+          // &:first-child a{
+          //   background-color: #99286b;
+          //   border-radius: 5%;
+          //   padding: 10px 35px 10px 35px;
+          // }
+          .on{
+            background-color: #FA5858;
+            border-radius: 5%;
+            padding: 10px 35px 10px 35px;
+          }
+          &:last-child{
+            padding-left: 70px;
+          }
+          button{
+            border: 0;
+            outline: none;
+            background-color: rgba(255, 255, 255, 0);
+            width: 16px;
+            height: 16px;
+            transform: rotate(-14deg);
+            margin-top: 27px;
+          }
+        }
+      }
+    } // gnb end
+  } // header end
+  .information_1{
+    outline: 1px #000 solid;
+    height: 330px;
+    .title{
+      height: 240px;
+      outline: 1px #000 solid;
+      padding-top: 90px;
+      position: relative;
+      h2{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 17px;
+      }
+      span{
+        // border: 1px #13a9dc solid;
+        width: 70px;
+        height: 2px;
+        background-color: #FA5858;
+        // text-align: center;
+        position:absolute;
+        top:43%;
+        left:50%;
+        // background:#f00;
+        transform:translate(-50%, -50%)
+      }
+      p{
+        padding-top: 60px;
+        font-size: 11px;
+        width: 800px;
+        margin: 0 auto;
+        line-height: 27px;
+        text-align: center;
+      }
+    } // title end
+  } // information_1 end
+  .information_2{
+    outline: 1px #000 solid;
+    height: 500px;
+    .infor_main{
+      width: 800px;
+      margin: 0 auto;
+      position: relative;
+      .infor_main_txt{
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        color: #fff;
+        h2{
+          font-size: 17px;
+        }
+        p{
+          font-size: 13px;
+          line-height: 38px;
+        }
+      }
+    } // infor_main end
+  } // information_2 end
+  .information_3{
+    height: 1700px;
+    outline: 1px #000 solid;
+    .title{
+      height: 210px;
+      outline: 1px #000 solid;
+      padding-top: 90px;
+      position: relative;
+      h2{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 17px;
+      }
+      span{
+        // border: 1px #13a9dc solid;
+        width: 70px;
+        height: 2px;
+        background-color: #FA5858;
+        // text-align: center;
+        position:absolute;
+        top:50%;
+        left:50%;
+        // background:#f00;
+        transform:translate(-50%, -50%)
+      }
+      p{
+        padding-top: 60px;
+        font-size: 11px;
+        width: 800px;
+        margin: 0 auto;
+        line-height: 27px;
+        text-align: center;
+      }
+    } // title end
+    .guide_txt{
+      width: 80%;
+      text-align: center;
+      margin: 0 auto;
+      table{
+        padding: 1%;
+        margin-top: 5%;
+        // border: 1px #000 solid;
+        width: 100%;
+        border-top: 1px #c8c8c8 solid;
+        border-bottom: 1px #c8c8c8 solid;
+        font-size: 12px;
+        tr{
+          th{
+            font-size: 13px;
+          }
+          td{
+            padding: 1%;
+            height: 50px;
+          }
+        }
+      }
+    }
+  }
+} // wrap end
