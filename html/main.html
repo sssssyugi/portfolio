@@ -89,8 +89,13 @@
   </script>
   <script type="text/javascript">
     $(function() {
-    // section_1
-    var section_1 = $(".section_1 .contents li");
+      // gnb hover
+      $('.gnb').click(function() {
+        console.log("dddd");
+      });
+
+      // section_1
+      var section_1 = $(".section_1 .contents li");
       section_1.mouseenter(function() {
         $(this).css("background-color","rgba(246, 246, 246, 0.5)");
         var text = $(this).find("a");

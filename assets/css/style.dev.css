@@ -1087,7 +1087,7 @@ p {
 /* line 170, assets\less\food.less */
 .wrap .food_2 {
   outline: 1px #000 solid;
-  height: 2070px;
+  height: 2810px;
 }
 /* line 173, assets\less\food.less */
 .wrap .food_2 .title {
@@ -1130,70 +1130,70 @@ p {
 .wrap .food_2 .list ul li {
   font-size: 13px;
   outline: 1px #000 solid;
-  width: 1000px;
+  width: 1040px;
   height: 241px;
   margin: 0 auto;
 }
 /* line 215, assets\less\food.less */
-.wrap .food_2 .list ul li a div {
+.wrap .food_2 .list ul li div {
   margin-top: 1.5%;
 }
-/* line 218, assets\less\food.less */
-.wrap .food_2 .list ul li a img {
-  width: 200px;
-  height: 200px;
-  padding: 2%;
-}
-/* line 223, assets\less\food.less */
-.wrap .food_2 .list ul li a .txt {
+/* line 217, assets\less\food.less */
+.wrap .food_2 .list ul li div .txt {
   float: right;
   margin-right: 4%;
   padding: 2%;
   line-height: 35px;
   margin-top: 2.5%;
-  width: 658px;
+  width: 700px;
 }
-/* line 230, assets\less\food.less */
-.wrap .food_2 .list ul li a .txt span {
+/* line 224, assets\less\food.less */
+.wrap .food_2 .list ul li div .txt span {
   display: block;
 }
-/* line 239, assets\less\food.less */
+/* line 229, assets\less\food.less */
+.wrap .food_2 .list ul li img {
+  width: 200px;
+  height: 200px;
+  padding: 2%;
+}
+/* line 238, assets\less\food.less */
 .wrap .footer {
   height: 55px;
   outline: 1px #00f solid;
   background-color: #000;
 }
-/* line 243, assets\less\food.less */
+/* line 242, assets\less\food.less */
 .wrap .footer ul {
   outline: 1px #f00 solid;
   text-align: right;
   line-height: 55px;
 }
-/* line 248, assets\less\food.less */
+/* line 247, assets\less\food.less */
 .wrap .footer ul li {
   outline: 1px #f0f solid;
   padding-right: 25px;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 254, assets\less\food.less */
+/* line 253, assets\less\food.less */
 .wrap .footer ul li a img {
   height: 17px;
   width: 17px;
   margin-top: 18px;
 }
-/* line 260, assets\less\food.less */
+/* line 259, assets\less\food.less */
 .wrap .footer ul li button {
   border: 0;
   background-color: #13a9dc;
 }
-/* line 263, assets\less\food.less */
+/* line 262, assets\less\food.less */
 .wrap .footer ul li button img {
   height: 10px;
   width: 13px;
   padding-bottom: 5px;
 }
-/* line 269, assets\less\food.less */
+/* line 268, assets\less\food.less */
 .wrap .footer ul li:last-child {
   margin-left: 50px;
   margin-right: 135px;
@@ -1587,7 +1587,7 @@ p {
 }
 /* line 104, assets\less\information.less */
 .wrap .information_2 .infor_main {
-  width: 800px;
+  width: 750px;
   margin: 0 auto;
   position: relative;
 }
@@ -1609,7 +1609,7 @@ p {
 }
 /* line 123, assets\less\information.less */
 .wrap .information_3 {
-  height: 1700px;
+  height: 1450px;
   outline: 1px #000 solid;
 }
 /* line 126, assets\less\information.less */
@@ -1753,7 +1753,7 @@ p {
 .wrap .title span {
   width: 70px;
   height: 2px;
-  background-color: #000;
+  background-color: #99286b;
   position: absolute;
   top: 68%;
   left: 50%;
