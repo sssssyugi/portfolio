@@ -255,37 +255,35 @@ p {
 .wrap .section_2 .food_img ul li {
   font-size: 11px;
   display: inline-block;
-  outline: 1px #000 solid;
 }
-/* line 236, assets\less\style.less */
+/* line 235, assets\less\style.less */
 .wrap .section_2 .food_img ul li div {
   position: relative;
 }
-/* line 240, assets\less\style.less */
+/* line 239, assets\less\style.less */
 .wrap .section_2 .food_img ul li div a img {
   width: 250px;
   height: 250px;
   -webkit-filter: grayscale(80%);
 }
-/* line 248, assets\less\style.less */
+/* line 247, assets\less\style.less */
 .wrap .section_2 .food_img ul li div .hover {
   position: absolute;
   z-index: 2;
   background-color: rgba(132, 207, 233, 0.5);
   width: 250px;
   height: 250px;
-  outline: 1px #000 solid;
   display: none;
   text-align: center;
 }
-/* line 258, assets\less\style.less */
+/* line 257, assets\less\style.less */
 .wrap .section_2 .food_img ul li div .hover img {
   width: 45px;
   height: 45px;
   position: relative;
   top: 41%;
 }
-/* line 273, assets\less\style.less */
+/* line 272, assets\less\style.less */
 .wrap .section_2 .food_img button {
   outline: none;
   color: #13a9dc;
@@ -298,24 +296,24 @@ p {
   margin-top: 95px;
   margin-left: 46%;
 }
-/* line 288, assets\less\style.less */
+/* line 287, assets\less\style.less */
 .wrap .section_3 {
   height: 600px;
   outline: 1px #000 solid;
   padding-top: 90px;
 }
-/* line 293, assets\less\style.less */
+/* line 292, assets\less\style.less */
 .wrap .section_3 .sec_title {
   position: relative;
   height: 130px;
 }
-/* line 296, assets\less\style.less */
+/* line 295, assets\less\style.less */
 .wrap .section_3 .sec_title h2 {
   text-align: center;
   text-transform: uppercase;
   font-size: 17px;
 }
-/* line 301, assets\less\style.less */
+/* line 300, assets\less\style.less */
 .wrap .section_3 .sec_title span {
   width: 70px;
   height: 2px;
@@ -325,14 +323,14 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 314, assets\less\style.less */
+/* line 313, assets\less\style.less */
 .wrap .section_3 .topten {
   position: relative;
   width: 1000px;
   height: 300px;
   margin: 0 auto;
 }
-/* line 319, assets\less\style.less */
+/* line 318, assets\less\style.less */
 .wrap .section_3 .topten button {
   position: absolute;
   top: 40%;
@@ -340,20 +338,20 @@ p {
   border: 0;
   background-color: rgba(255, 255, 255, 0);
 }
-/* line 325, assets\less\style.less */
+/* line 324, assets\less\style.less */
 .wrap .section_3 .topten button img {
   width: 35px;
   height: 35px;
 }
-/* line 329, assets\less\style.less */
+/* line 328, assets\less\style.less */
 .wrap .section_3 .topten button:first-child {
   left: -20%;
 }
-/* line 333, assets\less\style.less */
+/* line 332, assets\less\style.less */
 .wrap .section_3 .topten:last-child button {
   right: -20%;
 }
-/* line 336, assets\less\style.less */
+/* line 335, assets\less\style.less */
 .wrap .section_3 .topten ul {
   width: 1000px;
   height: 300px;
@@ -362,29 +360,29 @@ p {
   font-size: 0;
   background-color: #f6f6f6;
 }
-/* line 342, assets\less\style.less */
+/* line 341, assets\less\style.less */
 .wrap .section_3 .topten ul li {
   display: inline-block;
   display: none;
 }
-/* line 345, assets\less\style.less */
+/* line 344, assets\less\style.less */
 .wrap .section_3 .topten ul li:first-child {
   display: block;
 }
-/* line 348, assets\less\style.less */
+/* line 347, assets\less\style.less */
 .wrap .section_3 .topten ul li .sld {
   position: absolute;
   width: 1000px;
   height: 100%;
   top: 0;
 }
-/* line 355, assets\less\style.less */
+/* line 354, assets\less\style.less */
 .wrap .section_3 .topten ul li .sld .img img {
   position: absolute;
   width: 600px;
   height: 100%;
 }
-/* line 361, assets\less\style.less */
+/* line 360, assets\less\style.less */
 .wrap .section_3 .topten ul li .sld .txt {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 15px;
@@ -393,76 +391,76 @@ p {
   left: 380px;
   top: 60px;
 }
-/* line 368, assets\less\style.less */
+/* line 367, assets\less\style.less */
 .wrap .section_3 .topten ul li .sld .txt h3 {
   font-weight: 700;
   font-size: 20px;
   color: #fff;
 }
-/* line 373, assets\less\style.less */
+/* line 372, assets\less\style.less */
 .wrap .section_3 .topten ul li .sld .txt p {
   margin-top: 15px;
   line-height: 25px;
   color: #fff;
 }
-/* line 379, assets\less\style.less */
+/* line 378, assets\less\style.less */
 .wrap .section_3 .topten ul li .sld .add_btn {
   position: absolute;
   right: 10px;
   bottom: 2%;
 }
-/* line 384, assets\less\style.less */
+/* line 383, assets\less\style.less */
 .wrap .section_3 .topten ul li .sld .add_btn img {
   width: 35px;
   height: 35px;
 }
-/* line 394, assets\less\style.less */
+/* line 393, assets\less\style.less */
 .wrap .section_4 {
   height: 400px;
   outline: 1px #000 solid;
 }
-/* line 399, assets\less\style.less */
+/* line 398, assets\less\style.less */
 .wrap .section_4 #map_canvas {
   width: 100%;
   height: 100%;
 }
-/* line 404, assets\less\style.less */
+/* line 403, assets\less\style.less */
 .wrap .footer {
   height: 55px;
   outline: 1px #00f solid;
   background-color: #000;
 }
-/* line 408, assets\less\style.less */
+/* line 407, assets\less\style.less */
 .wrap .footer ul {
   outline: 1px #f00 solid;
   text-align: right;
   line-height: 55px;
 }
-/* line 413, assets\less\style.less */
+/* line 412, assets\less\style.less */
 .wrap .footer ul li {
   outline: 1px #f0f solid;
   padding-right: 25px;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 419, assets\less\style.less */
+/* line 418, assets\less\style.less */
 .wrap .footer ul li a img {
   height: 17px;
   width: 17px;
   margin-top: 18px;
 }
-/* line 425, assets\less\style.less */
+/* line 424, assets\less\style.less */
 .wrap .footer ul li button {
   border: 0;
   background-color: #13a9dc;
 }
-/* line 428, assets\less\style.less */
+/* line 427, assets\less\style.less */
 .wrap .footer ul li button img {
   height: 10px;
   width: 13px;
   padding-bottom: 5px;
 }
-/* line 434, assets\less\style.less */
+/* line 433, assets\less\style.less */
 .wrap .footer ul li:last-child {
   margin-left: 50px;
   margin-right: 135px;
@@ -544,7 +542,7 @@ p {
   width: 100%;
   outline: 1px #f00 solid;
   text-align: center;
-  height: 400px;
+  height: 350px;
 }
 /* line 76, assets\less\enjoy.less */
 .wrap .enjoy_1 h2 {
@@ -582,9 +580,8 @@ p {
 .wrap .enjoy_2 .title h2 {
   text-transform: uppercase;
   font-size: 17px;
-  padding-top: 100px;
 }
-/* line 117, assets\less\enjoy.less */
+/* line 116, assets\less\enjoy.less */
 .wrap .enjoy_2 .title span {
   width: 70px;
   height: 2px;
@@ -595,7 +592,7 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 130, assets\less\enjoy.less */
+/* line 129, assets\less\enjoy.less */
 .wrap .enjoy_2 .title p {
   padding-top: 60px;
   font-size: 11px;
@@ -603,12 +600,12 @@ p {
   margin: 0 auto;
   line-height: 27px;
 }
-/* line 141, assets\less\enjoy.less */
+/* line 140, assets\less\enjoy.less */
 .wrap .enjoy_2 .contents ul {
   font-size: 0;
   padding-top: 100px;
 }
-/* line 144, assets\less\enjoy.less */
+/* line 143, assets\less\enjoy.less */
 .wrap .enjoy_2 .contents ul li {
   font-size: 11px;
   border: 1px #fff solid;
@@ -619,19 +616,19 @@ p {
   border-radius: 5%;
   background-color: #99286b;
 }
-/* line 153, assets\less\enjoy.less */
+/* line 152, assets\less\enjoy.less */
 .wrap .enjoy_2 .contents ul li a {
   text-transform: uppercase;
   color: #fff;
 }
-/* line 156, assets\less\enjoy.less */
+/* line 155, assets\less\enjoy.less */
 .wrap .enjoy_2 .contents ul li a img {
   width: 50px;
   height: 50px;
   padding-top: 75px;
   padding-bottom: 32px;
 }
-/* line 167, assets\less\enjoy.less */
+/* line 166, assets\less\enjoy.less */
 .wrap .enjoy_3 {
   width: 100%;
   height: 720px;
@@ -639,13 +636,12 @@ p {
   outline: 1px #000 solid;
   text-align: center;
 }
-/* line 175, assets\less\enjoy.less */
+/* line 174, assets\less\enjoy.less */
 .wrap .enjoy_3 .title h2 {
   text-transform: uppercase;
   font-size: 17px;
-  padding-top: 100px;
 }
-/* line 180, assets\less\enjoy.less */
+/* line 178, assets\less\enjoy.less */
 .wrap .enjoy_3 .title span {
   width: 70px;
   height: 2px;
@@ -656,15 +652,14 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 194, assets\less\enjoy.less */
+/* line 192, assets\less\enjoy.less */
 .wrap .enjoy_3 .slide {
   outline: 1px #000 solid;
   width: 100%;
   height: 500px;
-  margin-top: 100px;
   background-color: #323232;
 }
-/* line 200, assets\less\enjoy.less */
+/* line 198, assets\less\enjoy.less */
 .wrap .enjoy_3 .slide button {
   outline: 0;
   border: 0;
@@ -673,20 +668,20 @@ p {
   margin-top: 12%;
   padding: 10px;
 }
-/* line 207, assets\less\enjoy.less */
+/* line 205, assets\less\enjoy.less */
 .wrap .enjoy_3 .slide button:first-child {
   float: left;
 }
-/* line 210, assets\less\enjoy.less */
+/* line 208, assets\less\enjoy.less */
 .wrap .enjoy_3 .slide button img {
   width: 60px;
   height: 60px;
 }
-/* line 215, assets\less\enjoy.less */
+/* line 213, assets\less\enjoy.less */
 .wrap .enjoy_3 .slide ul {
   padding-top: 4%;
 }
-/* line 217, assets\less\enjoy.less */
+/* line 215, assets\less\enjoy.less */
 .wrap .enjoy_3 .slide ul li {
   position: relative;
   display: inline-block;
@@ -695,19 +690,19 @@ p {
   outline: 1px #000 solid;
   margin-right: 2%;
 }
-/* line 224, assets\less\enjoy.less */
+/* line 222, assets\less\enjoy.less */
 .wrap .enjoy_3 .slide ul li a {
   color: #fff;
   font-size: 13px;
 }
-/* line 227, assets\less\enjoy.less */
+/* line 225, assets\less\enjoy.less */
 .wrap .enjoy_3 .slide ul li a img {
   display: block;
   width: 100%;
   height: 370px;
   margin: 0;
 }
-/* line 235, assets\less\enjoy.less */
+/* line 233, assets\less\enjoy.less */
 .wrap .enjoy_3 .slide ul li .slide_txt {
   outline: 1px #000 solid;
   width: 100%;
@@ -718,18 +713,18 @@ p {
   padding-bottom: 1%;
   padding-top: 1%;
 }
-/* line 246, assets\less\enjoy.less */
+/* line 244, assets\less\enjoy.less */
 .wrap .enjoy_3 .slide ul li .slide_txt h3 {
   margin-bottom: 2%;
   font-size: 16px;
 }
-/* line 250, assets\less\enjoy.less */
+/* line 248, assets\less\enjoy.less */
 .wrap .enjoy_3 .slide ul li .slide_txt span {
   float: left;
   margin-left: 3%;
   line-height: 150%;
 }
-/* line 261, assets\less\enjoy.less */
+/* line 259, assets\less\enjoy.less */
 .wrap .enjoy_4 {
   width: 100%;
   height: 720px;
@@ -737,17 +732,16 @@ p {
   outline: 1px #000 solid;
   text-align: center;
 }
-/* line 268, assets\less\enjoy.less */
+/* line 266, assets\less\enjoy.less */
 .wrap .enjoy_4 .title {
   border: 1px #000 solid;
 }
-/* line 270, assets\less\enjoy.less */
+/* line 268, assets\less\enjoy.less */
 .wrap .enjoy_4 .title h2 {
   text-transform: uppercase;
   font-size: 17px;
-  padding-top: 120px;
 }
-/* line 275, assets\less\enjoy.less */
+/* line 273, assets\less\enjoy.less */
 .wrap .enjoy_4 .title span {
   width: 70px;
   height: 2px;
@@ -759,144 +753,140 @@ p {
   transform: translate(-50%, -50%);
 }
 /* line 289, assets\less\enjoy.less */
-.wrap .enjoy_4 .gray {
-  margin-top: 100px;
-}
-/* line 291, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray .gray_ul {
   outline: 1px #000 solid;
   height: 381px;
   width: 1190px;
   margin: 0 auto;
 }
-/* line 299, assets\less\enjoy.less */
+/* line 297, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul .gray_li {
   outline: 1px #0f0 solid;
   margin: 0.5%;
 }
-/* line 304, assets\less\enjoy.less */
+/* line 302, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section1 {
   outline: 1px #000 solid;
   width: 372px;
   height: 370px;
 }
-/* line 308, assets\less\enjoy.less */
+/* line 306, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section1 ul {
   font-size: 0;
 }
-/* line 310, assets\less\enjoy.less */
+/* line 308, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section1 ul li {
   font-size: 11px;
   display: inline-block;
 }
-/* line 313, assets\less\enjoy.less */
+/* line 311, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section1 ul li:first-child + li {
   float: right;
   padding-bottom: 10px;
 }
-/* line 318, assets\less\enjoy.less */
+/* line 316, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section1 ul li a img {
   width: 180px;
   height: 180px;
 }
-/* line 323, assets\less\enjoy.less */
+/* line 321, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section1 ul li:last-child img {
   width: 372px;
   height: 180px;
 }
-/* line 331, assets\less\enjoy.less */
+/* line 329, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li {
   float: left;
 }
-/* line 333, assets\less\enjoy.less */
+/* line 331, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section2 {
   outline: 1px #000 solid;
   width: 410px;
   height: 370px;
 }
-/* line 338, assets\less\enjoy.less */
+/* line 336, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section2 ul {
   font-size: 0;
 }
-/* line 340, assets\less\enjoy.less */
+/* line 338, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section2 ul li {
   font-size: 11px;
 }
-/* line 342, assets\less\enjoy.less */
+/* line 340, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section2 ul li a {
   font-size: 11px;
 }
-/* line 344, assets\less\enjoy.less */
+/* line 342, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section2 ul li a img {
   width: 410px;
   height: 370px;
 }
-/* line 355, assets\less\enjoy.less */
+/* line 353, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section3 {
   outline: 1px #000 solid;
   width: 372px;
   height: 370px;
 }
-/* line 359, assets\less\enjoy.less */
+/* line 357, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section3 ul {
   font-size: 0;
 }
-/* line 361, assets\less\enjoy.less */
+/* line 359, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section3 ul li {
   font-size: 11px;
 }
-/* line 363, assets\less\enjoy.less */
+/* line 361, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section3 ul li:first-child + li {
   float: right;
   padding-bottom: 10px;
 }
-/* line 368, assets\less\enjoy.less */
+/* line 366, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section3 ul li a img {
   width: 180px;
   height: 180px;
 }
-/* line 373, assets\less\enjoy.less */
+/* line 371, assets\less\enjoy.less */
 .wrap .enjoy_4 .gray ul li .gray_section3 ul li:last-child img {
   width: 372px;
   height: 180px;
 }
-/* line 384, assets\less\enjoy.less */
+/* line 382, assets\less\enjoy.less */
 .wrap .footer {
   height: 55px;
   outline: 1px #00f solid;
   background-color: #000;
 }
-/* line 388, assets\less\enjoy.less */
+/* line 386, assets\less\enjoy.less */
 .wrap .footer ul {
   outline: 1px #f00 solid;
   text-align: right;
   line-height: 55px;
 }
-/* line 393, assets\less\enjoy.less */
+/* line 391, assets\less\enjoy.less */
 .wrap .footer ul li {
   outline: 1px #f0f solid;
   padding-right: 25px;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 399, assets\less\enjoy.less */
+/* line 397, assets\less\enjoy.less */
 .wrap .footer ul li a img {
   height: 17px;
   width: 17px;
   margin-top: 18px;
 }
-/* line 405, assets\less\enjoy.less */
+/* line 403, assets\less\enjoy.less */
 .wrap .footer ul li button {
   border: 0;
   background-color: #13a9dc;
 }
-/* line 408, assets\less\enjoy.less */
+/* line 406, assets\less\enjoy.less */
 .wrap .footer ul li button img {
   height: 10px;
   width: 13px;
   padding-bottom: 5px;
 }
-/* line 414, assets\less\enjoy.less */
+/* line 412, assets\less\enjoy.less */
 .wrap .footer ul li:last-child {
   margin-left: 50px;
   margin-right: 135px;
@@ -1087,7 +1077,7 @@ p {
 /* line 170, assets\less\food.less */
 .wrap .food_2 {
   outline: 1px #000 solid;
-  height: 2810px;
+  height: 2820px;
 }
 /* line 173, assets\less\food.less */
 .wrap .food_2 .title {
@@ -1609,7 +1599,7 @@ p {
 }
 /* line 123, assets\less\information.less */
 .wrap .information_3 {
-  height: 1450px;
+  height: 1520px;
   outline: 1px #000 solid;
 }
 /* line 126, assets\less\information.less */

@@ -25,7 +25,7 @@ $(function(){ // $(document).ready(function(){ });
             }
 
             button.eq(n).trigger('click');
-        }, 3000);
+        }, 2000);
     }
 
     function move(i){
